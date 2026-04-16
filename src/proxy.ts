@@ -77,8 +77,9 @@ export async function proxy(request: NextRequest) {
     return NextResponse.redirect(loginUrl);
   }
 
-  // Redirect authenticated users away from login/signup
-  if (user && isPublicRoute) {
+  // Redirect authenticated users away from login/signup (but NOT share pages)
+  const isAuthPage = ["/login", "/signup"].some((r) => pathname.startsWith(r));
+  if (user && isAuthPage) {
     const homeUrl = new URL("/", request.url);
     return NextResponse.redirect(homeUrl);
   }

@@ -105,6 +105,8 @@ export default async function SharePage({ params }: Props) {
   const name = profile.display_name || profile.username;
   const grouped = groupByTier(entries);
   const totalTiered = entries.filter((e) => e.tier !== null).length;
+  const availableTypes = [...new Set(entries.map((e) => e.type))];
+  const typeLabels: Record<string, string> = { manga: "Manga", anime: "Anime", movie: "Movie", game: "Game" };
 
   // Gather genre stats
   const genreCounts: Record<string, number> = {};
@@ -155,6 +157,22 @@ export default async function SharePage({ params }: Props) {
             {totalTiered} rated {totalTiered === 1 ? "title" : "titles"} across{" "}
             {entries.length} total {entries.length === 1 ? "entry" : "entries"}
           </p>
+
+          {/* Type tabs */}
+          <div className="flex justify-center gap-2 mt-6">
+            <span className="text-xs px-4 py-1.5 rounded-md bg-[#638dff]/12 border border-[#638dff]/35 text-[#638dff]">
+              All
+            </span>
+            {availableTypes.map((t) => (
+              <Link
+                key={t}
+                href={`/share/${username}/${t}`}
+                className="text-xs px-4 py-1.5 rounded-md border border-white/8 text-zinc-500 hover:text-zinc-300 transition-colors capitalize"
+              >
+                {typeLabels[t] || t}
+              </Link>
+            ))}
+          </div>
         </div>
       </header>
 
