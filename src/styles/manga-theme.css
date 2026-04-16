@@ -1,0 +1,33 @@
+/* Screentone dot texture overlay */
+.screentone-bg::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.018) 1px, transparent 0);
+  background-size: 4px 4px;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Hand-drawn sketchy borders */
+.sketchy-border {
+  border: 2px solid rgba(255,255,255,0.1);
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+}
+
+.sketchy-border-thick {
+  border: 3px solid rgba(255,255,255,0.15);
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+}
+
+/* Manga panel border */
+.manga-panel {
+  border: 3px solid rgba(255,255,255,0.08);
+}
+
+/* Tier colour glow accents */
+.tier-glow-S { box-shadow: 0 0 20px rgba(231,76,60,0.15); border-color: rgba(231,76,60,0.3); }
+.tier-glow-A { box-shadow: 0 0 20px rgba(230,126,34,0.12); border-color: rgba(230,126,34,0.25); }
+.tier-glow-B { box-shadow: 0 0 20px rgba(243,156,18,0.10); border-color: rgba(243,156,18,0.2); }
+.tier-glow-C { box-shadow: 0 0 20px rgba(52,152,219,0.10); border-color: rgba(52,152,219,0.2); }
+.tier-glow-D { box-shadow: 0 0 20px rgba(155,89,182,0.10); border-color: rgba(155,89,182,0.2); }
