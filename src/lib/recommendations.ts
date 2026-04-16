@@ -236,14 +236,14 @@ export async function generateRecommendations(
 
   const allRecs = new Map<number, SmartRecommendation>();
 
-  // Build taste profile from filtered collection
-  onProgress?.(`Building your ${mediaTypeFilter || "full"} taste profile...`);
-  const profile = buildTasteProfile(filteredCollection);
-
   // Filter collection by type if specified
   const filteredCollection = mediaTypeFilter
     ? collection.filter((e) => e.type === mediaTypeFilter)
     : collection;
+
+  // Build taste profile from filtered collection
+  onProgress?.(`Building your ${mediaTypeFilter || "full"} taste profile...`);
+  const profile = buildTasteProfile(filteredCollection);
 
   // 1. Community recommendations from S, A, and B tier entries with sourceId
   const topEntries = filteredCollection
