@@ -1,7 +1,9 @@
 "use client";
 
+import { useState, useCallback } from "react";
 import { MediaType, Status, ViewMode } from "@/lib/types";
-import { LayoutGrid, List, BookOpen, Layers } from "lucide-react";
+import { LayoutGrid, List, BookOpen, Layers, Share2, Check } from "lucide-react";
+import { useAuth } from "@/lib/auth-context";
 
 interface FilterBarProps {
   types: MediaType[];
@@ -48,6 +50,19 @@ export function FilterBar({
   search,
   onSearchChange,
 }: FilterBarProps) {
+  const { user } = useAuth();
+  const [copied, setCopied] = useState(false);
+
+  const handleShare = useCallback(() => {
+    const username =
+      (user?.user_metadata?.username as string) || "unknown";
+    const url = `https://app-nu-blond-24.vercel.app/share/${username}`;
+    navigator.clipboard.writeText(url).then(() => {
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    });
+  }, [user]);
+
   return (
     <div className="flex flex-col gap-2 mb-6">
       {/* Row 1: type filters + search + view toggles */}
@@ -104,6 +119,20 @@ export function FilterBar({
             </button>
           ))}
         </div>
+
+        {activeView === "tiers" && (
+          <button
+            onClick={handleShare}
+            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-colors ml-1 ${
+              copied
+                ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30"
+                : "bg-[#638dff]/20 text-[#638dff] border border-[#638dff]/30 hover:bg-[#638dff]/30"
+            }`}
+          >
+            {copied ? <Check size={14} /> : <Share2 size={14} />}
+            {copied ? "Link copied!" : "Share"}
+          </button>
+        )}
       </div>
 
       {/* Row 2: status filters */}
