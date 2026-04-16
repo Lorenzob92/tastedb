@@ -1811,7 +1811,7 @@
     "tier": "B",
     "status": "completed",
     "notes": "S1 was S, S2 was B, averaged out here",
-    "coverUrl": "",
+    "coverUrl": "https://image.tmdb.org/t/p/w500/rkHW7Iu7GCPW6C2EH5RhpqAI53h.jpg",
     "author": "",
     "genres": [
       "action",
@@ -1824,7 +1824,9 @@
     "source": "",
     "sourceId": "",
     "nyaaCategory": "1_0",
-    "addedAt": "2026-04-16T10:31:46.278Z"
+    "addedAt": "2026-04-16T10:31:46.278Z",
+    "manualFix": true,
+    "description": "A vampire hunter fights to save a besieged city from an army of otherworldly beasts controlled by Dracula himself. Inspired by the classic video game series."
   },
   {
     "id": "tokyo-revengers-anime",

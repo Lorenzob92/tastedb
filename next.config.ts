@@ -13,6 +13,11 @@ const nextConfig: NextConfig = {
         hostname: "cdn.anilist.co",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "image.tmdb.org",
+        pathname: "/**",
+      },
     ],
   },
 };
