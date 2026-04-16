@@ -1,1 +1,650 @@
-[]
+[
+  {
+    "title": "Parasyte",
+    "type": "manga",
+    "reason": "Body horror meets moral philosophy, similar thematic weight to Chainsaw Man and Uzumaki. Tight pacing, no filler.",
+    "matchScore": 95,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30401-siY6wmwnHFi6.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Kingdom",
+    "type": "manga",
+    "reason": "Epic historical warfare manga with the same scale and ambition as Vinland Saga. Brutal, strategic, deeply compelling characters.",
+    "matchScore": 94,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx46765-KPXir4sRqJBW.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Psycho-Pass",
+    "type": "anime",
+    "reason": "Dystopian psychological thriller with the same cerebral tension as Monster. Explores morality of justice systems in a cyberpunk setting you would love given your Edgerunners S-tier.",
+    "matchScore": 94,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx13601-i42VFuHpqEOJ.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Ghost in the Shell (1995)",
+    "type": "anime",
+    "reason": "The foundational cyberpunk anime film. If Akira and Edgerunners are S-tier, this is essential viewing.",
+    "matchScore": 96,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx43-Y6EjeEMM14dj.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Ghost in the Shell: Stand Alone Complex",
+    "type": "anime",
+    "reason": "Expands on the film with slow-burn political mystery arcs. Philosophical depth on par with Evangelion, cyberpunk world on par with Edgerunners.",
+    "matchScore": 93,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx467-mBTtIoR13qs2.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Serial Experiments Lain",
+    "type": "anime",
+    "reason": "Atmospheric, unsettling, existential. If you loved Evangelion's psychological deconstruction, Lain takes that further into digital identity and isolation.",
+    "matchScore": 92,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx339-xF2wp1NQuQ4r.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Devilman Crybaby",
+    "type": "anime",
+    "reason": "Visceral, emotional, morally devastating. Shares Chainsaw Man's raw energy and Fire Punch's bleakness. Masaaki Yuasa's art direction is extraordinary.",
+    "matchScore": 93,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx98460-bLtH2c3jd6sV.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Claymore",
+    "type": "manga",
+    "reason": "Dark fantasy seinen with Berserk-level brutality and compelling female leads. Tight 27-volume arc with a proper ending.",
+    "matchScore": 90,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30583-Ysqwu8uryIUX.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Battle Angel Alita / Gunnm",
+    "type": "manga",
+    "reason": "Cyberpunk post-apocalyptic manga with the atmospheric world-building of BLAME! and the visceral action of Berserk. A classic.",
+    "matchScore": 93,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30768-CQ5ITQ2YAX7R.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Nausicaa of the Valley of the Wind",
+    "type": "manga",
+    "reason": "Miyazaki's manga is far darker and more complex than the film. Given your Ghibli love and S-tier for Berserk's world-building, this is a must.",
+    "matchScore": 91,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30651-xLufeLnDPqpn.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Ping Pong the Animation",
+    "type": "anime",
+    "reason": "Masaaki Yuasa's masterpiece. Don't let the sports tag fool you; this is a character study on par with Punpun. 11 episodes, not a second wasted.",
+    "matchScore": 90,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20607-fIOxVISIl0HY.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Odd Taxi",
+    "type": "anime",
+    "reason": "Slow-burn mystery thriller with interconnected storylines, like a compressed 20th Century Boys. Brilliantly written, criminally underwatched.",
+    "matchScore": 92,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx128547-nNekWTKqmvEi.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Paranoia Agent",
+    "type": "anime",
+    "reason": "Satoshi Kon directing a psychological mystery series. If Perfect Blue and Paprika were A-tier, this is the TV equivalent.",
+    "matchScore": 93,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx323-ZGkUcJOn4ngy.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Millennium Actress",
+    "type": "anime",
+    "reason": "Another Satoshi Kon film. You rated Perfect Blue and Paprika as A; this is considered his most emotionally resonant work.",
+    "matchScore": 89,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1033-d5p1pbd5qa4L.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Tokyo Godfathers",
+    "type": "anime",
+    "reason": "Satoshi Kon's most grounded film. Warm, funny, humanistic. A palate cleanser that still has his signature narrative structure.",
+    "matchScore": 82,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx759-XSKBju6xutdR.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Texhnolyze",
+    "type": "anime",
+    "reason": "Bleak, atmospheric cyberpunk. If BLAME! is your S-tier manga for its oppressive atmosphere, Texhnolyze is the anime equivalent.",
+    "matchScore": 88,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx26-ADSztyHBNO39.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Ergo Proxy",
+    "type": "anime",
+    "reason": "Philosophical sci-fi with the slow-burn mystery pacing of Monster. Heavy on atmosphere and existential themes you gravitate towards.",
+    "matchScore": 85,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx790-YTUCvBKX8ZWK.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Fate/Zero",
+    "type": "anime",
+    "reason": "Dark, morally complex battle royale written by Gen Urobuchi. Mature themes, strategic mind games, stunning Ufotable animation.",
+    "matchScore": 89,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx10087-M4Hd9qrHGrXk.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Kaiji",
+    "type": "manga",
+    "reason": "Psychological gambling manga with unbearable tension. If Death Note's cat-and-mouse was A-tier for you, Kaiji pushes that tension to the extreme.",
+    "matchScore": 91,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx33573-hkqZOuUPGi2b.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Liar Game",
+    "type": "manga",
+    "reason": "Mind game manga with layered deception. Same intellectual thrill as Death Note but with game theory and trust as central themes.",
+    "matchScore": 87,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx31649-zKUMKIrXO8u5.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Usogui",
+    "type": "manga",
+    "reason": "High-stakes gambling with brutal consequences. Combines the psychological tension of Death Note with the violence of Gantz.",
+    "matchScore": 85,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx39982-68LS2Z9075Kw.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Holyland",
+    "type": "manga",
+    "reason": "Grounded street fighting manga with genuine psychological depth. The protagonist's isolation and growth echo Punpun's themes of alienation.",
+    "matchScore": 84,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx33285-yjuQDsJCNFjb.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Lone Wolf and Cub",
+    "type": "manga",
+    "reason": "The original samurai epic. If Vagabond was A-tier, this is its spiritual predecessor with even more focused revenge storytelling.",
+    "matchScore": 88,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30904-KRN1WE3ZU3vl.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Ashita no Joe",
+    "type": "manga",
+    "reason": "One of the most influential manga ever made. Tragic, raw, unforgettable protagonist. The emotional devastation of Punpun in a boxing ring.",
+    "matchScore": 86,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx31303-l21HJn9AXl7w.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Blood on the Tracks",
+    "type": "manga",
+    "reason": "Shuzo Oshimi's psychological horror about a mother's toxic love. You gave Punpun S-tier; Oshimi works in the same vein of uncomfortable intimacy.",
+    "matchScore": 90,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx98397-5b3kSYyw7ykd.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Flowers of Evil / Aku no Hana",
+    "type": "manga",
+    "reason": "Oshimi's earlier work on adolescent darkness. Same suffocating atmosphere as Punpun, shorter and even more focused.",
+    "matchScore": 89,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx107437-mkW9qJgQkZXA.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Solanin",
+    "type": "manga",
+    "reason": "Asano's most accessible work. You gave Punpun S-tier; Solanin is a shorter, more hopeful exploration of post-university aimlessness by the same author.",
+    "matchScore": 83,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx33731-AnTmPqTS2W8C.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Nijigahara Holograph",
+    "type": "manga",
+    "reason": "Asano's most cryptic and unsettling work. Non-linear mystery with the atmosphere of Uzumaki. One volume, endlessly re-readable.",
+    "matchScore": 88,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx31373-tNoEweGQ16Ly.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Innocent",
+    "type": "manga",
+    "reason": "Sakamoto's gorgeous historical manga about the Sanson executioner dynasty during the French Revolution. Art rivals Vagabond, themes are pure dark seinen.",
+    "matchScore": 87,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx203009-iN4KuTaKAx04.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Ajin",
+    "type": "manga",
+    "reason": "Immortal humans hunted by government. Tight cat-and-mouse thriller with a brilliant antagonist. Shares DNA with Death Note and Attack on Titan.",
+    "matchScore": 86,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b79865-rwKmISrhJJyP.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "I Am a Hero",
+    "type": "manga",
+    "reason": "The best zombie manga ever made. Slow-burn start with a deeply flawed protagonist, then escalates into body horror on par with Uzumaki.",
+    "matchScore": 85,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx44440-oLFibAj4TvM7.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Inuyashiki",
+    "type": "manga",
+    "reason": "From the Gantz author. Shorter, tighter, more emotionally resonant. Old man gets alien powers; his foil is a psychopathic teenager.",
+    "matchScore": 82,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx85226-AVgaDp50NGsr.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Planetes",
+    "type": "anime",
+    "reason": "Hard sci-fi about space debris collectors. Grounded, character-driven, beautiful. The same contemplative quality as Frieren but in a realistic space setting.",
+    "matchScore": 84,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx329-4xwXdazRA7Ph.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Jin-Roh: The Wolf Brigade",
+    "type": "anime",
+    "reason": "Bleak political thriller set in an alternate-history Japan. Atmospheric, slow-burn, morally grey. Shares DNA with Monster's sense of dread.",
+    "matchScore": 86,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx570-xyP4IO7i3ua2.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Redline",
+    "type": "anime",
+    "reason": "Seven years of hand-drawn animation in one film. Pure adrenaline, stunning visuals. If Akira's animation blew your mind, Redline will too.",
+    "matchScore": 83,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6675-NF4tFzAxSjkj.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Sword of the Stranger",
+    "type": "anime",
+    "reason": "The best sword-fighting animation in anime history. If Samurai Champloo was A-tier, this film's choreography surpasses it.",
+    "matchScore": 82,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx2418-AoLtfG2da5yo.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Master Keaton",
+    "type": "manga",
+    "reason": "Urasawa's episodic adventure manga. You rated all his other works S-tier; Master Keaton is his most overlooked gem.",
+    "matchScore": 90,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx30848-pI1o3k53KCel.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Look Back",
+    "type": "manga",
+    "reason": "Fujimoto's one-shot about creativity and loss. You gave Chainsaw Man S-tier; this 140-page story hits harder emotionally than anything else he has written.",
+    "matchScore": 91,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx136807-KNfQQTRD4HUK.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Goodbye Eri",
+    "type": "manga",
+    "reason": "Another Fujimoto one-shot, this one about filmmaking, memory, and unreliable narration. Experimental, moving, and completely unique.",
+    "matchScore": 87,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx146983-pLf4apCkFwKL.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Land of the Lustrous",
+    "type": "manga",
+    "reason": "Existential sci-fi about gem beings. Gorgeous art, Buddhist philosophy, and a protagonist's descent that rivals Punpun's darkness.",
+    "matchScore": 86,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx74489-5HtDCFfut8Be.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Biomega",
+    "type": "manga",
+    "reason": "Nihei's fast-paced cyberpunk action manga. You gave BLAME! S-tier; Biomega is its more accessible, action-oriented sibling.",
+    "matchScore": 82,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx31409-f9us2m2zQ4qp.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Baccano!",
+    "type": "anime",
+    "reason": "Non-linear storytelling across timelines with a huge cast. If you appreciate 20th Century Boys' interconnected narrative threads, Baccano does it in 16 episodes.",
+    "matchScore": 84,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx2251-tTQoWxVy4472.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Death Parade",
+    "type": "anime",
+    "reason": "Humans judged after death through psychological games. Each episode is a moral puzzle. Short, impactful, atmospherically gorgeous.",
+    "matchScore": 83,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/nx20931-bktYqOcxPERi.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Tatami Galaxy",
+    "type": "anime",
+    "reason": "Masaaki Yuasa's visually experimental take on youth and regret. Rapid-fire dialogue, inventive animation, existential comedy.",
+    "matchScore": 81,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx7785-aTjIhsYva8cJ.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Mushishi",
+    "type": "anime",
+    "reason": "Meditative, atmospheric, and hauntingly beautiful. Each episode is a self-contained mystery. The antithesis of action seinen, but exactly the mood of Frieren.",
+    "matchScore": 82,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx457-l6cTtNgI9Bi6.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "FLCL",
+    "type": "anime",
+    "reason": "Six episodes of pure creative chaos from Gainax. Coming-of-age wrapped in mecha absurdism. If Evangelion was S-tier, FLCL is its unhinged cousin.",
+    "matchScore": 78,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx227-qOB9ZhVvNnqO.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Ninja Scroll",
+    "type": "anime",
+    "reason": "Classic 90s dark action anime film. Brutal supernatural samurai combat. The same era and energy as 1997 Berserk.",
+    "matchScore": 79,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx617-yo9IcTEQRNuN.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Vampire Hunter D: Bloodlust",
+    "type": "anime",
+    "reason": "Gothic dark fantasy film with breathtaking animation. If Berserk's Golden Age atmosphere captivated you, this film delivers similar vibes in 100 minutes.",
+    "matchScore": 78,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx543-MAeWIDl4TwuG.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Hajime no Ippo",
+    "type": "manga",
+    "reason": "The definitive boxing manga. Over 1400 chapters of character development, hype fights, and emotional highs. More accessible than Ashita no Joe but just as gripping.",
+    "matchScore": 80,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx30007-jVUNk721L0Uz.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Elfen Lied",
+    "type": "manga",
+    "reason": "The manga is far superior to the anime. Dark, psychological, body horror with genuine emotional depth beneath the violence.",
+    "matchScore": 79,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/36283.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "5 Centimeters per Second",
+    "type": "anime",
+    "reason": "Early Shinkai. You gave Your Name and Weathering with You S-tier; this is his most emotionally devastating work, pure melancholy.",
+    "matchScore": 85,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1689-rJKhjLEjQHSy.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "A Silent Voice",
+    "type": "anime",
+    "reason": "KyoAni's masterpiece about bullying, guilt, and redemption. Emotionally on par with Your Name but more grounded and intimate.",
+    "matchScore": 88,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20954-sYRfE5jQRtSB.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Megalo Box",
+    "type": "anime",
+    "reason": "Spiritual successor to Ashita no Joe with a cyberpunk twist. Gritty underdog boxing story with stellar music and atmosphere.",
+    "matchScore": 81,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b100298-A5VQUcw7ZC64.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Dororo (2019)",
+    "type": "anime",
+    "reason": "MAPPA's reimagining of Tezuka's classic. Dark, atmospheric, morally complex. You are already reading Adolf (Tezuka); this is Tezuka's vision with modern production.",
+    "matchScore": 84,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101347-TGaDwEYqLfm1.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Great Pretender",
+    "type": "anime",
+    "reason": "Stylish heist anime with Cowboy Bebop's cool factor and globe-trotting energy. WIT Studio animation, jazz-influenced soundtrack.",
+    "matchScore": 80,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx110349-59hhZ9CNHVdk.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Haikyuu!!",
+    "type": "anime",
+    "reason": "The best sports anime ever made. Don't let the volleyball premise fool you; the character writing rivals anything in your A-tier list.",
+    "matchScore": 78,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx20464-ooZUyBe4ptp9.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "March Comes in Like a Lion",
+    "type": "manga",
+    "reason": "Shogi prodigy dealing with depression and loneliness. Shaft adaptation is also excellent. Same emotional register as Punpun but with warmth.",
+    "matchScore": 85,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx31224-dxugU08jahRT.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Blue Period",
+    "type": "manga",
+    "reason": "A delinquent discovers passion for art. Genuine, grounded character study about creative obsession. Shares GTO's school setting but with introspection.",
+    "matchScore": 79,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/2310.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Heavenly Delusion",
+    "type": "manga",
+    "reason": "Post-apocalyptic mystery with two timelines slowly converging. The same slow-burn mystery structure as 20th Century Boys in a sci-fi setting.",
+    "matchScore": 87,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx101942-yjslDpT6XcpK.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Girls' Last Tour",
+    "type": "manga",
+    "reason": "Two girls wander a post-apocalyptic world. Existential, contemplative, surprisingly profound. BLAME!'s lonely atmosphere with a gentle heart.",
+    "matchScore": 80,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx85412-wzZ2QFwbZJED.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Tezuka: Phoenix",
+    "type": "manga",
+    "reason": "Tezuka considered this his life's work. Spans millennia, explores mortality and reincarnation. You are reading Adolf; Phoenix is his magnum opus.",
+    "matchScore": 88,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b109836-NwYxXNYLkjxQ.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Tezuka: Buddha",
+    "type": "manga",
+    "reason": "Tezuka's retelling of Siddhartha's life. Historical epic with the scope of Vinland Saga and philosophical depth of Monster.",
+    "matchScore": 84,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx31111-ldPYMNd3PvHa.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Black Jack",
+    "type": "manga",
+    "reason": "Tezuka's dark medical drama about an unlicensed genius surgeon. Episodic moral dilemmas, gorgeous art, morally grey protagonist.",
+    "matchScore": 83,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx31600-CCA5TUKJBQJh.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Bokura no / Bokurano",
+    "type": "manga",
+    "reason": "Children pilot a mecha, but each battle costs one pilot's life. Evangelion's existential despair taken to its logical extreme.",
+    "matchScore": 85,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx205429-mNUPrKnCSqNm.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Hellsing Ultimate",
+    "type": "anime",
+    "reason": "Over-the-top dark action with vampires, Nazis, and the Vatican. Gorgeous OVA production values. The same cathartic violence as Berserk.",
+    "matchScore": 81,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx777-F6547pSAR2Zd.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Darker Than Black",
+    "type": "anime",
+    "reason": "Superpowered assassins in a noir-tinged world. Episodic mysteries with an overarching conspiracy. Cowboy Bebop's structure in a darker setting.",
+    "matchScore": 79,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b2025-ZKVteVzUyFLH.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Kara no Kyoukai / Garden of Sinners",
+    "type": "anime",
+    "reason": "Seven films of dark supernatural mystery by Ufotable. Philosophical, atmospheric, stunning animation. If you liked Fate/Zero's tone, this is its predecessor.",
+    "matchScore": 86,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx6954-uMdvQ3Vy74Oa.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Barefoot Gen",
+    "type": "manga",
+    "reason": "Autobiographical account of surviving the Hiroshima bombing. Devastating, historically important. If Grave of the Fireflies was S-tier, this is its manga equivalent.",
+    "matchScore": 82,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx33281-2NXB8uHRxpI3.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Real",
+    "type": "manga",
+    "reason": "Inoue's wheelchair basketball manga. You gave Vagabond A-tier; Real has the same artistic mastery applied to disability and perseverance.",
+    "matchScore": 81,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx93524-b0B6drzaIpPR.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Sun-Ken Rock",
+    "type": "manga",
+    "reason": "Korean gangster manga with jaw-dropping art. Action-heavy with surprising emotional beats. If GTO's delinquent energy was S-tier, this goes harder.",
+    "matchScore": 80,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx38848-hOSCdwE8xjYl.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Old Boy",
+    "type": "manga",
+    "reason": "The manga that inspired Park Chan-wook's film. Slow-burn revenge mystery, psychological manipulation, morally devastating ending.",
+    "matchScore": 86,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx31929-uUQt7FMaLPwM.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Banana Fish",
+    "type": "manga",
+    "reason": "Crime thriller set in 1980s New York. Gang warfare, conspiracy, compelling protagonist. Grittier than anything in your current list.",
+    "matchScore": 79,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30756-rlxjQWBAizHX.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Promare",
+    "type": "anime",
+    "reason": "Trigger's wildly animated film. If you appreciated Gurren Lagann's bombastic energy through Kill la Kill's lens, Promare distils it to a single explosive film.",
+    "matchScore": 76,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99425-CQ500X23zp4i.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Shamo",
+    "type": "manga",
+    "reason": "Disturbing martial arts manga about a teenager who kills his parents. Morally repugnant protagonist, unflinching violence. Dark seinen at its most uncomfortable.",
+    "matchScore": 78,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b30727-w8kVrUSI5ecE.png",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Choujin X",
+    "type": "manga",
+    "reason": "Sui Ishida's post-Tokyo Ghoul work. You gave TG B-tier; Choujin X is more mature, weirder, and artistically evolved.",
+    "matchScore": 82,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx126693-hEqUWtBfUHyc.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Domu: A Child's Dream",
+    "type": "manga",
+    "reason": "Otomo's pre-Akira masterwork. Psychic horror in a housing complex. You gave Akira S-tier; Domu is shorter, tighter, equally unsettling.",
+    "matchScore": 89,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx31215-Uy5fMvXDuDuq.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Gannibal",
+    "type": "manga",
+    "reason": "Rural Japanese village with a cannibalism secret. Slow-burn horror mystery with the same claustrophobic dread as Uzumaki.",
+    "matchScore": 84,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx107910-zBRCpWCLMxEk.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Tomie",
+    "type": "manga",
+    "reason": "Junji Ito's other iconic work. You gave Uzumaki S-tier; Tomie is his exploration of obsession, beauty, and body horror across connected stories.",
+    "matchScore": 83,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx145235-gv0foCglMlss.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Gyo",
+    "type": "manga",
+    "reason": "Ito's aquatic horror. More action-oriented than Uzumaki, still deeply unsettling. Mechanical fish invading land is peak Ito absurdist horror.",
+    "matchScore": 76,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30909-B28a64isOJC2.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Akudama Drive",
+    "type": "anime",
+    "reason": "Neon-drenched cyberpunk action anime. If Edgerunners was S-tier for its style and energy, Akudama Drive delivers similar visual spectacle.",
+    "matchScore": 79,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx116566-PPIVQt359vQY.jpg",
+    "generatedAt": "2026-04-16"
+  },
+  {
+    "title": "Memories (Otomo)",
+    "type": "anime",
+    "reason": "Anthology film supervised by the Akira creator. Three distinct sci-fi shorts, each with stunning animation. If Akira was S-tier, this is essential Otomo.",
+    "matchScore": 82,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx1462-wHe4bW5b6XRE.png",
+    "generatedAt": "2026-04-16"
+  }
+]
