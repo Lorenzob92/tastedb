@@ -692,17 +692,20 @@
   },
   {
     "id": "keroro-manga",
-    "title": "Keroro",
+    "title": "Keroro Gunsou",
     "type": "manga",
     "tier": "B",
     "status": "completed",
     "notes": "",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx184903-p2A5FwTvhpgx.jpg",
-    "author": "Sgt. Frog",
-    "genres": [],
-    "year": 2000,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx30966-HKFMb1r1Keqb.jpg",
+    "author": "Mine Yoshizaki",
+    "genres": [
+      "comedy",
+      "sci-fi"
+    ],
+    "year": 1999,
     "source": "anilist",
-    "sourceId": "184903",
+    "sourceId": "30966",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z"
   },
@@ -1677,19 +1680,21 @@
   },
   {
     "id": "jojo-anime-anime",
-    "title": "JoJo anime",
+    "title": "JoJo's Bizarre Adventure",
     "type": "anime",
     "tier": "A",
     "status": "completed",
     "notes": "matches manga tiers per part",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b123901-SE2GQngZ22fy.png",
-    "author": "Reiji Miyajima",
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx14719-fexPtoDeEhmE.png",
+    "author": "Hirohiko Araki",
     "genres": [
-      "comedy"
+      "action",
+      "adventure",
+      "supernatural"
     ],
-    "year": 2020,
+    "year": 2012,
     "source": "anilist",
-    "sourceId": "123901",
+    "sourceId": "14719",
     "nyaaCategory": "1_0",
     "addedAt": "2026-04-16T10:31:46.278Z"
   },
@@ -1890,12 +1895,18 @@
     "tier": "B",
     "status": "completed",
     "notes": "S1 was S, S2 was B, averaged out here",
-    "coverUrl": "",
-    "author": "Netflix",
-    "genres": [],
-    "year": 0,
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21462-WGvALLK3Ycjx.jpg",
+    "author": "",
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "horror"
+    ],
+    "year": 2017,
     "source": "",
-    "sourceId": "",
+    "sourceId": "21462",
     "nyaaCategory": "1_0",
     "addedAt": "2026-04-16T10:31:46.278Z"
   },
