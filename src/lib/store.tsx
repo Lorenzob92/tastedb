@@ -166,7 +166,12 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   }, [additions, ready, isCloud]);
 
   // Build the media list based on mode
-  const media = isCloud ? cloudMedia : buildMedia(overrides, additions);
+  // If Supabase is configured but user is not logged in, show empty (they'll be redirected to login)
+  const media = isCloud
+    ? cloudMedia
+    : isConfigured && !user && !authLoading
+      ? []
+      : buildMedia(overrides, additions);
 
   const updateEntry = useCallback(
     (id: string, updates: Partial<MediaEntry>) => {

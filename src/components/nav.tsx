@@ -10,7 +10,7 @@ export function Nav() {
 
   async function handleSignOut() {
     await signOut();
-    router.push("/login");
+    window.location.href = "/login";
   }
 
   return (
