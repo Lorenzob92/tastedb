@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useMemo } from "react";
-import { MediaType, ViewMode } from "@/lib/types";
+import { MediaType, Status, ViewMode } from "@/lib/types";
 import { getAllMedia, filterMedia, getMediaTypes } from "@/lib/data";
 import { CoverCollage } from "@/components/cover-collage";
 import { FilterBar } from "@/components/filter-bar";
@@ -15,6 +15,7 @@ const availableTypes = getMediaTypes(allMedia);
 
 export default function CollectionPage() {
   const [activeType, setActiveType] = useState<MediaType | null>(null);
+  const [activeStatus, setActiveStatus] = useState<Status | null>(null);
   const [activeView, setActiveView] = useState<ViewMode>("grid");
   const [search, setSearch] = useState("");
 
@@ -22,9 +23,10 @@ export default function CollectionPage() {
     () =>
       filterMedia(allMedia, {
         type: activeType ?? undefined,
+        status: activeStatus ?? undefined,
         search: search || undefined,
       }),
-    [activeType, search]
+    [activeType, activeStatus, search]
   );
 
   return (
@@ -44,6 +46,8 @@ export default function CollectionPage() {
         types={availableTypes}
         activeType={activeType}
         onTypeChange={setActiveType}
+        activeStatus={activeStatus}
+        onStatusChange={setActiveStatus}
         activeView={activeView}
         onViewChange={setActiveView}
         search={search}

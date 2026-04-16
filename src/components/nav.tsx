@@ -21,6 +21,11 @@ export function Nav() {
           </Link>
         </li>
         <li>
+          <Link href="/wishlist" className="text-sm text-zinc-400 hover:text-white transition-colors">
+            Wishlist
+          </Link>
+        </li>
+        <li>
           <Link href="/recommendations" className="text-sm text-zinc-400 hover:text-white transition-colors">
             Recs
           </Link>
