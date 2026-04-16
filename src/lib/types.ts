@@ -17,6 +17,7 @@ export interface MediaEntry {
   sourceId: string;
   nyaaCategory: string;
   addedAt: string;
+  description: string;
 }
 
 export interface Recommendation {

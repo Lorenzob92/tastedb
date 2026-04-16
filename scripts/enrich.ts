@@ -7,6 +7,7 @@ interface AniListMedia {
   id: number;
   title: { romaji: string; english: string | null };
   coverImage: { large: string };
+  description: string | null;
   staff?: { edges: Array<{ node: { name: { full: string } }; role: string }> };
   genres: string[];
   startDate: { year: number | null };
@@ -19,6 +20,7 @@ async function searchAniList(title: string, type: "MANGA" | "ANIME"): Promise<An
         id
         title { romaji english }
         coverImage { large }
+        description(asHtml: false)
         staff(perPage: 5) { edges { node { name { full } } role } }
         genres
         startDate { year }
@@ -55,13 +57,11 @@ async function main() {
   let notFound = 0;
 
   for (const entry of entries) {
-    // Skip entries that already have cover art
-    if (entry.coverUrl && entry.coverUrl.length > 0) {
+    // Only enrich manga and anime (AniList doesn't have movies/games)
+    if (entry.type !== "manga" && entry.type !== "anime") {
       skipped++;
       continue;
     }
-    // Only enrich manga and anime (AniList doesn't have movies/games)
-    if (entry.type !== "manga" && entry.type !== "anime") continue;
 
     const aniType = entry.type === "manga" ? "MANGA" : "ANIME";
 
@@ -76,6 +76,10 @@ async function main() {
       entry.coverUrl = result.coverImage.large;
       entry.source = "anilist";
       entry.sourceId = String(result.id);
+
+      // Strip any residual HTML tags and set description
+      const rawDesc = result.description ?? "";
+      entry.description = rawDesc.replace(/<[^>]*>/g, "").trim();
 
       if (result.genres.length > 0 && entry.genres.length === 0) {
         entry.genres = result.genres.map((g: string) => g.toLowerCase());
@@ -93,15 +97,15 @@ async function main() {
       enriched++;
       console.log(`  OK: ${entry.title} (${entry.type})`);
 
-      // AniList rate limit: 90 req/min, ~1.5s between requests to be safe
-      await new Promise((r) => setTimeout(r, 1500));
+      // AniList rate limit: 90 req/min, 700ms between requests
+      await new Promise((r) => setTimeout(r, 700));
     } catch (err) {
       console.error(`  ERROR: ${entry.title}:`, err);
     }
   }
 
   fs.writeFileSync(DATA_PATH, JSON.stringify(entries, null, 2));
-  console.log(`\nDone. Enriched ${enriched}, skipped ${skipped} (already had covers), not found ${notFound}.`);
+  console.log(`\nDone. Enriched ${enriched}, skipped ${skipped} (non-manga/anime), not found ${notFound}.`);
 }
 
 main();

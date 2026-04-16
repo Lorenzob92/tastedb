@@ -149,6 +149,13 @@ export default async function EntryPage({ params }: Props) {
               <p className="text-sm text-zinc-500">{entry.year}</p>
             )}
 
+            {/* Synopsis */}
+            {entry.description && (
+              <p className="text-sm text-zinc-400 leading-relaxed max-w-prose">
+                {entry.description}
+              </p>
+            )}
+
             {/* Notes */}
             {entry.notes && (
               <div className="border border-zinc-800 rounded-lg px-4 py-3 bg-zinc-900/60 text-sm text-zinc-300 leading-relaxed">
