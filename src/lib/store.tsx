@@ -9,17 +9,28 @@ import {
   ReactNode,
 } from "react";
 import { MediaEntry, Recommendation, Tier, Status, MediaType } from "./types";
+import {
+  SmartRecommendation,
+  generateRecommendations,
+  clearRecsCache,
+  ProgressCallback,
+} from "./recommendations";
 import seedMedia from "../../data/media.json";
 import seedRecs from "../../data/recommendations.json";
 
 interface StoreContextType {
   media: MediaEntry[];
   recommendations: Recommendation[];
+  smartRecs: SmartRecommendation[];
+  isGeneratingRecs: boolean;
+  recsProgress: string;
+  refreshRecommendations: (forceRefresh?: boolean) => Promise<void>;
   updateEntry: (id: string, updates: Partial<MediaEntry>) => void;
   addEntry: (entry: MediaEntry) => void;
   removeEntry: (id: string) => void;
   getEntry: (id: string) => MediaEntry | undefined;
   addToWishlist: (rec: Recommendation) => void;
+  addSmartToWishlist: (rec: SmartRecommendation) => void;
   startReading: (id: string) => void;
   isInCollection: (title: string) => boolean;
   ready: boolean;
@@ -69,6 +80,9 @@ function buildMedia(
 export function StoreProvider({ children }: { children: ReactNode }) {
   const [overrides, setOverrides] = useState<Record<string, Partial<MediaEntry>>>({});
   const [additions, setAdditions] = useState<MediaEntry[]>([]);
+  const [smartRecs, setSmartRecs] = useState<SmartRecommendation[]>([]);
+  const [isGeneratingRecs, setIsGeneratingRecs] = useState(false);
+  const [recsProgress, setRecsProgress] = useState("");
   const [ready, setReady] = useState(false);
 
   // Load from localStorage on mount
@@ -166,14 +180,71 @@ export function StoreProvider({ children }: { children: ReactNode }) {
     [updateEntry]
   );
 
+  const addSmartToWishlist = useCallback(
+    (rec: SmartRecommendation) => {
+      const slug = rec.title
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/(^-|-$)/g, "");
+      const id = `${slug}-${rec.type}`;
+      const entry: MediaEntry = {
+        id,
+        title: rec.titleEnglish ?? rec.title,
+        type: rec.type,
+        tier: null,
+        status: "planned",
+        notes: rec.reasons.join("; "),
+        coverUrl: rec.coverUrl ?? "",
+        author: rec.author ?? "",
+        genres: rec.genres ?? [],
+        year: rec.year ?? 0,
+        source: "anilist",
+        sourceId: String(rec.id),
+        nyaaCategory: rec.type === "manga" ? "3_0" : rec.type === "anime" ? "1_0" : "",
+        addedAt: new Date().toISOString(),
+        description: rec.description ?? "",
+      };
+      addEntry(entry);
+    },
+    [addEntry]
+  );
+
+  const refreshRecommendations = useCallback(
+    async (forceRefresh = false) => {
+      if (isGeneratingRecs) return;
+      setIsGeneratingRecs(true);
+      setRecsProgress("Starting...");
+      try {
+        const results = await generateRecommendations(
+          media,
+          50,
+          (msg) => setRecsProgress(msg),
+          forceRefresh
+        );
+        setSmartRecs(results);
+      } catch {
+        setRecsProgress("Something went wrong. Try again later.");
+      } finally {
+        setIsGeneratingRecs(false);
+      }
+    },
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [isGeneratingRecs, overrides, additions]
+  );
+
   const value: StoreContextType = {
     media,
     recommendations: seedRecs as Recommendation[],
+    smartRecs,
+    isGeneratingRecs,
+    recsProgress,
+    refreshRecommendations,
     updateEntry,
     addEntry,
     removeEntry,
     getEntry,
     addToWishlist,
+    addSmartToWishlist,
     startReading,
     isInCollection,
     ready,
