@@ -30,7 +30,7 @@
     "tier": "S",
     "status": "completed",
     "notes": "",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/93285-mnjMdil9LnNT.jpg",
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30001-Knby7l1jevE7.jpg",
     "author": "Naoki Urasawa",
     "genres": [
       "drama",
@@ -40,13 +40,14 @@
     ],
     "year": 1994,
     "source": "anilist",
-    "sourceId": "93285",
+    "sourceId": "30001",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
     "description": "1-4. SexG; Comic Aun 2013-10~12, 2014-02\n5. Aisaki Natsumi 14-sai Debut (\u76f8\u54b2\u306a\u3064\u307f14\u6b73\u30c7\u30d3\u30e5\u30fc); 2013-06\n6. Monster (\u30e2\u30f3\u30b9\u30bf\u30fc); 2014-03\n7. Yureru 2-dan Bed (\u63fa\u308c\u308b2\u6bb5\u30d9\u30c3\u30c9); 2014-04+05",
     "mangaTier": "S",
     "animeTier": "S",
-    "alsoAnime": true
+    "alsoAnime": true,
+    "manualFix": true
   },
   {
     "id": "20th-century-boys-21st-century-boys-manga",
@@ -931,17 +932,18 @@
     "tier": "C",
     "status": "completed",
     "notes": "",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx36444-ts0MBsP8sdY5.jpg",
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/nx30011-9yUF1dXWgDOx.jpg",
     "author": "Masashi Kishimoto",
     "genres": [
       "action"
     ],
-    "year": 1997,
+    "year": 1999,
     "source": "anilist",
-    "sourceId": "36444",
+    "sourceId": "30011",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "A one-shot manga by Kishimoto that was published in the August 1997 issue of Akamaru Jump which the now famous Naruto manga is based on."
+    "description": "A one-shot manga by Kishimoto that was published in the August 1997 issue of Akamaru Jump which the now famous Naruto manga is based on.",
+    "manualFix": true
   },
   {
     "id": "bleach-manga",

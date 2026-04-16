@@ -57,6 +57,11 @@ async function main() {
   let notFound = 0;
 
   for (const entry of entries) {
+    // Skip manually fixed entries
+    if (entry.manualFix) {
+      skipped++;
+      continue;
+    }
     // Only enrich manga and anime (AniList doesn't have movies/games)
     if (entry.type !== "manga" && entry.type !== "anime") {
       skipped++;
