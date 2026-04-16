@@ -1,5 +1,8 @@
-import { getAllMedia, filterMedia } from "@/lib/data";
+"use client";
+
+import { useMemo } from "react";
 import { MediaType } from "@/lib/types";
+import { useStore } from "@/lib/store";
 import { MediaCard } from "@/components/media-card";
 
 const TYPE_LABELS: Record<MediaType, string> = {
@@ -12,18 +15,29 @@ const TYPE_LABELS: Record<MediaType, string> = {
 const TYPE_ORDER: MediaType[] = ["manga", "anime", "movie", "game"];
 
 export default function WishlistPage() {
-  const all = getAllMedia();
-  const planned = filterMedia(all, { status: "planned" });
+  const { media, updateEntry, removeEntry, ready } = useStore();
 
-  const grouped = TYPE_ORDER.reduce<Record<MediaType, typeof planned>>(
-    (acc, type) => {
-      acc[type] = planned.filter((e) => e.type === type);
-      return acc;
-    },
-    { manga: [], anime: [], movie: [], game: [] }
-  );
+  const planned = useMemo(() => media.filter((e) => e.status === "planned"), [media]);
+
+  const grouped = useMemo(() => {
+    return TYPE_ORDER.reduce<Record<MediaType, typeof planned>>(
+      (acc, type) => {
+        acc[type] = planned.filter((e) => e.type === type);
+        return acc;
+      },
+      { manga: [], anime: [], movie: [], game: [] }
+    );
+  }, [planned]);
 
   const activeTypes = TYPE_ORDER.filter((t) => grouped[t].length > 0);
+
+  if (!ready) {
+    return (
+      <div className="flex items-center justify-center py-24">
+        <div className="w-6 h-6 border-2 border-[#638dff] border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <>
@@ -40,7 +54,7 @@ export default function WishlistPage() {
         <div className="flex flex-col items-center justify-center py-24 text-center">
           <p className="text-zinc-500 text-sm">Nothing on the wishlist yet.</p>
           <p className="text-zinc-600 text-xs mt-1">
-            Mark entries as &quot;Planned&quot; in your collection to see them here.
+            Mark entries as &quot;Planned&quot; in your collection or add from recommendations.
           </p>
         </div>
       ) : (
@@ -55,7 +69,32 @@ export default function WishlistPage() {
               </h2>
               <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4">
                 {grouped[type].map((entry) => (
-                  <MediaCard key={entry.id} entry={entry} />
+                  <div key={entry.id} className="group relative">
+                    <MediaCard entry={entry} />
+                    {/* Action overlay */}
+                    <div className="absolute bottom-0 left-0 right-0 opacity-0 group-hover:opacity-100 transition-opacity bg-gradient-to-t from-black/90 to-transparent pt-8 pb-2 px-2 rounded-b-lg flex gap-1.5 justify-center">
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          updateEntry(entry.id, { status: "reading" });
+                        }}
+                        className="px-2 py-1 text-[10px] font-medium rounded bg-blue-600 text-white hover:bg-blue-500 transition-colors"
+                      >
+                        Start
+                      </button>
+                      <button
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          removeEntry(entry.id);
+                        }}
+                        className="px-2 py-1 text-[10px] font-medium rounded bg-zinc-800 text-zinc-400 hover:bg-red-900/50 hover:text-red-400 transition-colors"
+                      >
+                        Remove
+                      </button>
+                    </div>
+                  </div>
                 ))}
               </div>
             </section>

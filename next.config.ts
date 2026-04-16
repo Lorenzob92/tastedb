@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: "s4.anilist.co",
         pathname: "/**",
       },
+      {
+        protocol: "https",
+        hostname: "cdn.anilist.co",
+        pathname: "/**",
+      },
     ],
   },
 };

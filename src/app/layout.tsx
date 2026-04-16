@@ -3,6 +3,7 @@ import { Space_Grotesk, Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 import "../styles/manga-theme.css";
 import { Nav } from "@/components/nav";
+import { ClientStoreProvider } from "@/components/store-provider";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-sans",
@@ -31,10 +32,12 @@ export default function RootLayout({
       className={`${spaceGrotesk.variable} ${notoSansJP.variable} h-full antialiased dark`}
     >
       <body className="screentone-bg min-h-full flex flex-col bg-[#0a0a12] text-zinc-200">
-        <div className="relative z-10 flex flex-col min-h-full w-full max-w-7xl mx-auto">
-          <Nav />
-          <main className="flex flex-col flex-1 px-6 py-8">{children}</main>
-        </div>
+        <ClientStoreProvider>
+          <div className="relative z-10 flex flex-col min-h-full w-full max-w-7xl mx-auto">
+            <Nav />
+            <main className="flex flex-col flex-1 px-6 py-8">{children}</main>
+          </div>
+        </ClientStoreProvider>
       </body>
     </html>
   );

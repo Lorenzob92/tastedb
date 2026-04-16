@@ -2,7 +2,8 @@
 
 import { useState, useMemo } from "react";
 import { MediaType, Status, ViewMode } from "@/lib/types";
-import { getAllMedia, filterMedia, getMediaTypes } from "@/lib/data";
+import { filterMedia, getMediaTypes } from "@/lib/data";
+import { useStore } from "@/lib/store";
 import { CoverCollage } from "@/components/cover-collage";
 import { FilterBar } from "@/components/filter-bar";
 import { GridView } from "@/components/grid-view";
@@ -10,14 +11,14 @@ import { TierView } from "@/components/tier-view";
 import { ListView } from "@/components/list-view";
 import { ShelfView } from "@/components/shelf-view";
 
-const allMedia = getAllMedia();
-const availableTypes = getMediaTypes(allMedia);
-
 export default function CollectionPage() {
+  const { media: allMedia, ready } = useStore();
   const [activeType, setActiveType] = useState<MediaType | null>(null);
   const [activeStatus, setActiveStatus] = useState<Status | null>(null);
   const [activeView, setActiveView] = useState<ViewMode>("grid");
   const [search, setSearch] = useState("");
+
+  const availableTypes = useMemo(() => getMediaTypes(allMedia), [allMedia]);
 
   const filtered = useMemo(
     () =>
@@ -26,8 +27,16 @@ export default function CollectionPage() {
         status: activeStatus ?? undefined,
         search: search || undefined,
       }),
-    [activeType, activeStatus, search]
+    [allMedia, activeType, activeStatus, search]
   );
+
+  if (!ready) {
+    return (
+      <div className="flex items-center justify-center py-24">
+        <div className="w-6 h-6 border-2 border-[#638dff] border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <>

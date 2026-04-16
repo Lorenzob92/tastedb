@@ -1,8 +1,18 @@
-import { getRecommendations } from "@/lib/data";
-import RecCard from "@/components/rec-card";
+"use client";
+
+import { useStore } from "@/lib/store";
+import InteractiveRecCard from "@/components/rec-card";
 
 export default function RecommendationsPage() {
-  const recs = getRecommendations();
+  const { recommendations: recs, ready } = useStore();
+
+  if (!ready) {
+    return (
+      <div className="max-w-2xl mx-auto px-4 py-10 flex items-center justify-center">
+        <div className="w-6 h-6 border-2 border-[#638dff] border-t-transparent rounded-full animate-spin" />
+      </div>
+    );
+  }
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-10 space-y-8">
@@ -40,7 +50,7 @@ export default function RecommendationsPage() {
       ) : (
         <div className="space-y-3">
           {recs.map((rec, i) => (
-            <RecCard key={`${rec.title}-${i}`} rec={rec} />
+            <InteractiveRecCard key={`${rec.title}-${i}`} rec={rec} />
           ))}
         </div>
       )}
