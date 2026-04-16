@@ -114,16 +114,16 @@ export default function SearchPage() {
   return (
     <div className="max-w-2xl mx-auto space-y-6">
       <div className="space-y-2">
-        <h1 className="text-2xl font-black text-white tracking-tight">
+        <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">
           <span className="text-[#638dff]">Search</span> AniList
         </h1>
-        <p className="text-sm text-zinc-500">
+        <p className="text-xs sm:text-sm text-zinc-500">
           Find manga and anime to add to your collection.
         </p>
       </div>
 
       {/* Search controls */}
-      <div className="flex gap-2">
+      <div className="flex flex-col sm:flex-row gap-2">
         <input
           type="text"
           value={query}
@@ -132,7 +132,7 @@ export default function SearchPage() {
           className="flex-1 px-4 py-2.5 rounded-lg bg-zinc-900 border border-zinc-700 text-sm text-zinc-200 placeholder:text-zinc-600 focus:outline-none focus:border-blue-600 transition-colors"
           autoFocus
         />
-        <div className="flex rounded-lg border border-zinc-700 overflow-hidden">
+        <div className="flex rounded-lg border border-zinc-700 overflow-hidden self-start">
           <button
             onClick={() => setSearchType("MANGA")}
             className={`px-3 py-2 text-xs font-medium transition-colors ${

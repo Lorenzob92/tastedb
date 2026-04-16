@@ -23,7 +23,7 @@ export function CoverCollage({ entries }: CoverCollageProps) {
   if (covers.length === 0) return null;
 
   return (
-    <div className="relative h-48 overflow-hidden rounded-xl mb-8">
+    <div className="relative h-32 sm:h-48 overflow-hidden rounded-xl mb-8">
       <div className="grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-12 gap-2 p-3">
         {covers.map((entry, i) => (
           <motion.div

@@ -25,11 +25,11 @@ export function TierView({ entries }: TierViewProps) {
           >
             {/* Tier badge column */}
             <div
-              className="flex flex-col items-center justify-center w-14 shrink-0"
+              className="flex flex-col items-center justify-center w-10 sm:w-14 shrink-0"
               style={{ backgroundColor: config.bg }}
             >
               <span
-                className="text-2xl font-black"
+                className="text-xl sm:text-2xl font-black"
                 style={{ color: config.colour }}
               >
                 {tier}
@@ -37,7 +37,7 @@ export function TierView({ entries }: TierViewProps) {
             </div>
 
             {/* Thumbnails row */}
-            <div className="flex flex-wrap items-center gap-1.5 py-2 flex-1 min-h-[5rem]">
+            <div className="flex items-center gap-1.5 py-2 flex-1 min-h-[5rem] overflow-x-auto scrollbar-thin">
               {items.map((entry) => {
                 const hasCover = entry.coverUrl && entry.coverUrl.length > 0;
 

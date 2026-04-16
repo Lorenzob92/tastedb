@@ -32,10 +32,10 @@ export default function RecommendationsPage() {
   const authorRecs = smartRecs.filter((r) => r.source === "author");
 
   return (
-    <div className="max-w-2xl mx-auto px-4 py-10 space-y-8">
+    <div className="max-w-2xl mx-auto px-0 sm:px-4 py-6 sm:py-10 space-y-6 sm:space-y-8">
       {/* Heading */}
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold text-white tracking-tight">
+        <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
           <span style={{ color: "#638dff" }}>Smart</span> Recommendations
         </h1>
         <p className="text-sm text-zinc-500">

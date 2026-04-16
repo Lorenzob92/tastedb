@@ -38,10 +38,10 @@ export function ShelfView({ entries }: ShelfViewProps) {
             {/* Header */}
             <div className="flex items-center gap-2 mb-3">
               <TierBadge tier={tier} size="md" />
-              <span className="text-sm text-zinc-400 font-medium">
+              <span className="text-xs sm:text-sm text-zinc-400 font-medium">
                 {config.label}
               </span>
-              <span className="text-xs text-zinc-600">({items.length})</span>
+              <span className="text-[10px] sm:text-xs text-zinc-600">({items.length})</span>
             </div>
 
             {/* Shelf */}
@@ -63,8 +63,7 @@ export function ShelfView({ entries }: ShelfViewProps) {
                     >
                       <Link
                         href={`/entry/${entry.id}`}
-                        className="block relative rounded overflow-hidden group"
-                        style={{ width: 52, height: 160 }}
+                        className="block relative rounded overflow-hidden group w-[40px] h-[130px] sm:w-[52px] sm:h-[160px]"
                       >
                         {hasCover ? (
                           <Image

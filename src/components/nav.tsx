@@ -14,8 +14,8 @@ export function Nav() {
   }
 
   return (
-    <nav className="flex items-center px-6 py-4 border-b border-white/5">
-      <Link href="/" className="flex items-baseline gap-1">
+    <nav className="flex items-center px-4 md:px-6 py-4 border-b border-white/5">
+      <Link href="/" className="flex items-baseline gap-1 shrink-0">
         <span className="text-xl font-black text-white tracking-tight">
           taste<span className="text-[#638dff]">db</span>
         </span>
@@ -26,28 +26,28 @@ export function Nav() {
           味覚
         </span>
       </Link>
-      <ul className="flex gap-6 ml-auto items-center">
-        <li>
+      <ul className="flex gap-4 md:gap-6 ml-auto items-center overflow-x-auto scrollbar-hide">
+        <li className="shrink-0">
           <Link href="/" className="text-sm text-zinc-400 hover:text-white transition-colors">
             Collection
           </Link>
         </li>
-        <li>
+        <li className="shrink-0">
           <Link href="/wishlist" className="text-sm text-zinc-400 hover:text-white transition-colors">
             Wishlist
           </Link>
         </li>
-        <li>
+        <li className="shrink-0">
           <Link href="/recommendations" className="text-sm text-zinc-400 hover:text-white transition-colors">
             Recs
           </Link>
         </li>
-        <li>
+        <li className="shrink-0">
           <Link href="/search" className="text-sm text-zinc-400 hover:text-white transition-colors">
             Search
           </Link>
         </li>
-        <li>
+        <li className="shrink-0">
           <Link href="/stats" className="text-sm text-zinc-400 hover:text-white transition-colors">
             Stats
           </Link>
@@ -56,10 +56,10 @@ export function Nav() {
         {/* Auth section */}
         {isConfigured && user ? (
           <>
-            <li className="text-xs text-zinc-500 border-l border-white/10 pl-6">
+            <li className="text-xs text-zinc-500 border-l border-white/10 pl-4 md:pl-6 shrink-0">
               {user.user_metadata?.username || user.email?.split("@")[0] || "User"}
             </li>
-            <li>
+            <li className="shrink-0">
               <button
                 onClick={handleSignOut}
                 className="text-sm text-zinc-500 hover:text-red-400 transition-colors"
@@ -69,7 +69,7 @@ export function Nav() {
             </li>
           </>
         ) : isConfigured ? (
-          <li className="border-l border-white/10 pl-6">
+          <li className="border-l border-white/10 pl-4 md:pl-6 shrink-0">
             <Link
               href="/login"
               className="text-sm text-[#638dff] hover:text-[#4f7aff] transition-colors"

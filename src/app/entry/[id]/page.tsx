@@ -126,22 +126,22 @@ export default function EntryPage() {
   };
 
   return (
-    <main className="min-h-screen bg-zinc-950 text-zinc-100 px-4 py-10">
+    <main className="min-h-screen bg-zinc-950 text-zinc-100 px-4 py-6 sm:py-10">
       <div className="max-w-3xl mx-auto">
         {/* Back link */}
         <Link
           href="/"
-          className="inline-flex items-center gap-1.5 text-sm text-zinc-400 hover:text-blue-400 transition-colors mb-8"
+          className="inline-flex items-center gap-1.5 text-sm text-zinc-400 hover:text-blue-400 transition-colors mb-6 sm:mb-8"
         >
           ← Back to collection
         </Link>
 
         {/* Main card */}
-        <div className="flex gap-8">
+        <div className="flex flex-col sm:flex-row gap-6 sm:gap-8">
           {/* Cover */}
-          <div className="flex-shrink-0">
+          <div className="flex-shrink-0 flex justify-center sm:justify-start">
             {entry.coverUrl ? (
-              <div className="w-48 rounded-lg overflow-hidden border border-zinc-800 shadow-xl">
+              <div className="w-[200px] sm:w-48 rounded-lg overflow-hidden border border-zinc-800 shadow-xl">
                 <Image
                   src={entry.coverUrl}
                   alt={`${entry.title} cover`}
@@ -152,7 +152,7 @@ export default function EntryPage() {
                 />
               </div>
             ) : (
-              <div className="w-48 h-[272px] rounded-lg border border-zinc-800 bg-zinc-900 flex items-center justify-center text-zinc-600 text-sm">
+              <div className="w-[200px] sm:w-48 h-[272px] rounded-lg border border-zinc-800 bg-zinc-900 flex items-center justify-center text-zinc-600 text-sm">
                 No cover
               </div>
             )}
@@ -161,7 +161,7 @@ export default function EntryPage() {
           {/* Details */}
           <div className="flex-1 min-w-0 flex flex-col gap-4">
             <div>
-              <h1 className="text-3xl font-bold text-white leading-tight">{entry.title}</h1>
+              <h1 className="text-2xl sm:text-3xl font-bold text-white leading-tight">{entry.title}</h1>
               {entry.author && (
                 <p className="mt-1 text-zinc-400 text-sm">{entry.author}</p>
               )}
@@ -214,7 +214,7 @@ export default function EntryPage() {
             {/* Tier selector */}
             <div>
               <p className="text-xs text-zinc-500 mb-1.5 font-medium uppercase tracking-wide">Tier</p>
-              <div className="flex gap-1.5">
+              <div className="flex flex-wrap gap-1.5">
                 {TIER_ORDER.map((t) => {
                   const cfg = TIER_CONFIG[t];
                   const isActive = entry.tier === t;

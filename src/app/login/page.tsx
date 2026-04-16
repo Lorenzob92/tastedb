@@ -68,10 +68,10 @@ export default function LoginPage() {
 
       <div className="relative z-10 w-full max-w-sm">
         {/* Glass card */}
-        <div className="rounded-2xl border border-white/10 bg-[#0a0a12]/80 backdrop-blur-xl p-8 shadow-2xl">
+        <div className="rounded-2xl border border-white/10 bg-[#0a0a12]/80 backdrop-blur-xl p-6 sm:p-8 shadow-2xl">
           {/* Logo */}
-          <div className="text-center mb-8">
-            <h1 className="text-3xl font-black text-white tracking-tight">
+          <div className="text-center mb-6 sm:mb-8">
+            <h1 className="text-2xl sm:text-3xl font-black text-white tracking-tight">
               taste<span className="text-[#638dff]">db</span>
             </h1>
             <p className="text-sm text-zinc-500 mt-1">

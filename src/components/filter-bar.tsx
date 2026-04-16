@@ -67,7 +67,7 @@ export function FilterBar({
     <div className="flex flex-col gap-2 mb-6">
       {/* Row 1: type filters + search + view toggles */}
       <div className="flex flex-wrap items-center gap-2">
-        <div className="flex items-center gap-1.5">
+        <div className="flex items-center gap-1.5 flex-wrap">
           <button
             onClick={() => onTypeChange(null)}
             className={`px-3 py-1.5 rounded-md text-xs font-medium transition-colors ${
@@ -93,17 +93,17 @@ export function FilterBar({
           ))}
         </div>
 
-        <div className="flex-1" />
+        <div className="flex-1 hidden sm:block" />
 
         <input
           type="text"
           value={search}
           onChange={(e) => onSearchChange(e.target.value)}
           placeholder="Search..."
-          className="px-3 py-1.5 rounded-md text-xs bg-white/5 border border-white/5 text-zinc-300 placeholder:text-zinc-600 outline-none focus:border-[#638dff]/30 w-40 transition-colors"
+          className="px-3 py-1.5 rounded-md text-xs bg-white/5 border border-white/5 text-zinc-300 placeholder:text-zinc-600 outline-none focus:border-[#638dff]/30 w-full sm:w-40 transition-colors order-last sm:order-none"
         />
 
-        <div className="flex items-center gap-1 ml-1">
+        <div className="flex items-center gap-1">
           {VIEW_OPTIONS.map(({ mode, icon: Icon, label }) => (
             <button
               key={mode}
@@ -118,25 +118,25 @@ export function FilterBar({
               <Icon size={16} />
             </button>
           ))}
-        </div>
 
-        {activeView === "tiers" && (
-          <button
-            onClick={handleShare}
-            className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-colors ml-1 ${
-              copied
-                ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30"
-                : "bg-[#638dff]/20 text-[#638dff] border border-[#638dff]/30 hover:bg-[#638dff]/30"
-            }`}
-          >
-            {copied ? <Check size={14} /> : <Share2 size={14} />}
-            {copied ? "Link copied!" : "Share"}
-          </button>
-        )}
+          {activeView === "tiers" && (
+            <button
+              onClick={handleShare}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium transition-colors ml-1 ${
+                copied
+                  ? "bg-emerald-500/20 text-emerald-400 border border-emerald-500/30"
+                  : "bg-[#638dff]/20 text-[#638dff] border border-[#638dff]/30 hover:bg-[#638dff]/30"
+              }`}
+            >
+              {copied ? <Check size={14} /> : <Share2 size={14} />}
+              {copied ? "Copied!" : "Share"}
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Row 2: status filters */}
-      <div className="flex items-center gap-1.5">
+      <div className="flex items-center gap-1.5 flex-wrap">
         <button
           onClick={() => onStatusChange(null)}
           className={`px-3 py-1.5 rounded-md text-xs font-medium transition-colors ${

@@ -41,11 +41,11 @@ export default function WishlistPage() {
 
   return (
     <>
-      <div className="mb-8">
-        <h1 className="text-2xl font-black text-white tracking-tight">
+      <div className="mb-6 sm:mb-8">
+        <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">
           My <span className="text-[#638dff]">Wishlist</span>
         </h1>
-        <p className="text-sm text-zinc-500 mt-1">
+        <p className="text-xs sm:text-sm text-zinc-500 mt-1">
           {planned.length} {planned.length === 1 ? "entry" : "entries"} planned
         </p>
       </div>

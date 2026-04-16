@@ -133,7 +133,7 @@ export default async function SharePage({ params }: Props) {
   return (
     <div className="min-h-screen bg-[#0a0a12] text-zinc-200">
       {/* Header */}
-      <header className="relative overflow-hidden pt-12 pb-8 px-6">
+      <header className="relative overflow-hidden pt-8 sm:pt-12 pb-6 sm:pb-8 px-4 sm:px-6">
         {/* Decorative manga lines */}
         <div className="absolute inset-0 opacity-[0.03] pointer-events-none">
           <div
@@ -159,7 +159,7 @@ export default async function SharePage({ params }: Props) {
           </p>
 
           {/* Type tabs */}
-          <div className="flex justify-center gap-2 mt-6">
+          <div className="flex flex-wrap justify-center gap-2 mt-6">
             <span className="text-xs px-4 py-1.5 rounded-md bg-[#638dff]/12 border border-[#638dff]/35 text-[#638dff]">
               All
             </span>
@@ -246,8 +246,8 @@ export default async function SharePage({ params }: Props) {
                 </div>
 
                 {/* Count */}
-                <div className="flex items-center px-4">
-                  <span className="text-xs text-zinc-500 font-medium tabular-nums">
+                <div className="flex items-center px-2 sm:px-4">
+                  <span className="text-[10px] sm:text-xs text-zinc-500 font-medium tabular-nums">
                     {items.length}
                   </span>
                 </div>
@@ -325,12 +325,12 @@ export default async function SharePage({ params }: Props) {
           </div>
         )}
 
-        <div className="relative px-6 py-16 sm:py-20">
+        <div className="relative px-4 sm:px-6 py-12 sm:py-20">
           <div className="max-w-lg mx-auto text-center">
-            <h2 className="text-2xl sm:text-3xl font-black text-white">
+            <h2 className="text-xl sm:text-3xl font-black text-white">
               Create your own tier list
             </h2>
-            <p className="text-sm text-zinc-400 mt-3 leading-relaxed">
+            <p className="text-xs sm:text-sm text-zinc-400 mt-2 sm:mt-3 leading-relaxed">
               Join tastedb and track, rate, and share your manga, anime, movies,
               and games collection.
             </p>

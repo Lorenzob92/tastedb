@@ -54,10 +54,10 @@ export default function StatsPage() {
   const presentTypes = Object.entries(typeCounts) as [MediaType, number][];
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-10 space-y-10">
+    <div className="max-w-3xl mx-auto px-0 sm:px-4 py-6 sm:py-10 space-y-8 sm:space-y-10">
       {/* Heading */}
       <div className="space-y-2">
-        <h1 className="text-3xl font-bold text-white tracking-tight">
+        <h1 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
           Stats
         </h1>
         <p className="text-sm text-zinc-500">

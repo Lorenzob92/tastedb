@@ -43,10 +43,10 @@ export default function CollectionPage() {
       <CoverCollage entries={allMedia} />
 
       <div className="mb-6">
-        <h1 className="text-2xl font-black text-white tracking-tight">
+        <h1 className="text-xl sm:text-2xl font-black text-white tracking-tight">
           My <span className="text-[#638dff]">Collection</span>
         </h1>
-        <p className="text-sm text-zinc-500 mt-1">
+        <p className="text-xs sm:text-sm text-zinc-500 mt-1">
           {filtered.length} {filtered.length === 1 ? "entry" : "entries"}
         </p>
       </div>
