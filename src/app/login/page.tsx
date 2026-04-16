@@ -24,7 +24,11 @@ export default function LoginPage() {
       setError(authError.message);
       setLoading(false);
     } else {
-      router.push("/");
+      // Give the cookie a moment to propagate before navigating
+      router.refresh();
+      setTimeout(() => {
+        window.location.href = "/";
+      }, 500);
     }
   }
 
