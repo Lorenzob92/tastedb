@@ -17,6 +17,7 @@ export default function RecommendationsPage() {
   } = useStore();
 
   const [activeTab, setActiveTab] = useState<"smart" | "static">("smart");
+  const [recType, setRecType] = useState<"manga" | "anime" | undefined>(undefined);
 
   if (!ready) {
     return (
@@ -43,10 +44,27 @@ export default function RecommendationsPage() {
         </p>
       </div>
 
-      {/* Action buttons */}
-      <div className="flex flex-wrap gap-3">
+      {/* Type selector + action buttons */}
+      <div className="flex flex-wrap gap-3 items-center">
+        {/* Type filter */}
+        <div className="flex gap-1 mr-2">
+          {([undefined, "manga", "anime"] as const).map((t) => (
+            <button
+              key={t ?? "all"}
+              onClick={() => setRecType(t)}
+              className={`text-xs px-3 py-1.5 rounded-md border transition-colors ${
+                recType === t
+                  ? "bg-[#638dff]/12 border-[#638dff]/35 text-[#638dff]"
+                  : "bg-white/[0.03] border-white/8 text-zinc-500 hover:text-zinc-300"
+              }`}
+            >
+              {t ? t.charAt(0).toUpperCase() + t.slice(1) : "All"}
+            </button>
+          ))}
+        </div>
+
         <button
-          onClick={() => refreshRecommendations(false)}
+          onClick={() => refreshRecommendations(false, recType)}
           disabled={isGeneratingRecs}
           className="px-4 py-2 rounded-lg text-sm font-medium transition-colors disabled:opacity-50"
           style={{
@@ -55,11 +73,11 @@ export default function RecommendationsPage() {
             color: "#8aabff",
           }}
         >
-          {isGeneratingRecs ? "Generating..." : smartRecs.length > 0 ? "Generate Recommendations" : "Generate Recommendations"}
+          {isGeneratingRecs ? "Generating..." : "Generate Recommendations"}
         </button>
         {smartRecs.length > 0 && (
           <button
-            onClick={() => refreshRecommendations(true)}
+            onClick={() => refreshRecommendations(true, recType)}
             disabled={isGeneratingRecs}
             className="px-4 py-2 rounded-lg text-sm font-medium transition-colors disabled:opacity-50 bg-zinc-900 text-zinc-400 border border-zinc-700 hover:border-zinc-500 hover:text-zinc-200"
           >

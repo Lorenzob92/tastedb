@@ -176,10 +176,10 @@ interface CachedRecs {
   recs: SmartRecommendation[];
 }
 
-function loadCache(): CachedRecs | null {
+function loadCache(suffix = ""): CachedRecs | null {
   if (typeof window === "undefined") return null;
   try {
-    const raw = localStorage.getItem(CACHE_KEY);
+    const raw = localStorage.getItem(CACHE_KEY + suffix);
     if (!raw) return null;
     return JSON.parse(raw) as CachedRecs;
   } catch {
@@ -187,10 +187,10 @@ function loadCache(): CachedRecs | null {
   }
 }
 
-function saveCache(recs: SmartRecommendation[]) {
+function saveCache(recs: SmartRecommendation[], suffix = "") {
   try {
     localStorage.setItem(
-      CACHE_KEY,
+      CACHE_KEY + suffix,
       JSON.stringify({ timestamp: Date.now(), recs } as CachedRecs)
     );
   } catch {
@@ -214,11 +214,13 @@ export async function generateRecommendations(
   collection: MediaEntry[],
   maxResults = 50,
   onProgress?: ProgressCallback,
-  forceRefresh = false
+  forceRefresh = false,
+  mediaTypeFilter?: "manga" | "anime"
 ): Promise<SmartRecommendation[]> {
-  // Check cache
+  // Check cache (keyed by type filter)
+  const cacheKeySuffix = mediaTypeFilter ? `-${mediaTypeFilter}` : "";
   if (!forceRefresh) {
-    const cached = loadCache();
+    const cached = loadCache(cacheKeySuffix);
     if (cached && Date.now() - cached.timestamp < CACHE_TTL) {
       onProgress?.("Loaded from cache");
       return cached.recs;
@@ -234,23 +236,27 @@ export async function generateRecommendations(
 
   const allRecs = new Map<number, SmartRecommendation>();
 
-  // Build taste profile
-  onProgress?.("Building your taste profile...");
-  const profile = buildTasteProfile(collection);
+  // Build taste profile from filtered collection
+  onProgress?.(`Building your ${mediaTypeFilter || "full"} taste profile...`);
+  const profile = buildTasteProfile(filteredCollection);
 
-  // 1. Community recommendations from S and A tier entries with sourceId
-  const topEntries = collection
+  // Filter collection by type if specified
+  const filteredCollection = mediaTypeFilter
+    ? collection.filter((e) => e.type === mediaTypeFilter)
+    : collection;
+
+  // 1. Community recommendations from S, A, and B tier entries with sourceId
+  const topEntries = filteredCollection
     .filter(
       (e) =>
-        (e.tier === "S" || e.tier === "A") &&
+        (e.tier === "S" || e.tier === "A" || e.tier === "B") &&
         e.sourceId &&
         (e.type === "manga" || e.type === "anime")
     )
     .sort((a, b) => {
       const tierOrder = { S: 0, A: 1, B: 2, C: 3, D: 4 };
       return (tierOrder[a.tier!] ?? 99) - (tierOrder[b.tier!] ?? 99);
-    })
-    .slice(0, 15);
+    });
 
   onProgress?.(`Fetching community recs for ${topEntries.length} top-tier titles...`);
 
@@ -450,7 +456,7 @@ export async function generateRecommendations(
     }
   }
 
-  saveCache(sorted);
+  saveCache(sorted, cacheKeySuffix);
   onProgress?.("Done!");
   return sorted;
 }

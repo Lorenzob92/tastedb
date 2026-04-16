@@ -26,7 +26,7 @@ interface StoreContextType {
   smartRecs: SmartRecommendation[];
   isGeneratingRecs: boolean;
   recsProgress: string;
-  refreshRecommendations: (forceRefresh?: boolean) => Promise<void>;
+  refreshRecommendations: (forceRefresh?: boolean, mediaTypeFilter?: "manga" | "anime") => Promise<void>;
   updateEntry: (id: string, updates: Partial<MediaEntry>) => void;
   addEntry: (entry: MediaEntry) => void;
   removeEntry: (id: string) => void;
@@ -352,7 +352,7 @@ export function StoreProvider({ children }: { children: ReactNode }) {
   );
 
   const refreshRecommendations = useCallback(
-    async (forceRefresh = false) => {
+    async (forceRefresh = false, mediaTypeFilter?: "manga" | "anime") => {
       if (isGeneratingRecs) return;
       setIsGeneratingRecs(true);
       setRecsProgress("Starting...");
@@ -361,7 +361,8 @@ export function StoreProvider({ children }: { children: ReactNode }) {
           media,
           50,
           (msg) => setRecsProgress(msg),
-          forceRefresh
+          forceRefresh,
+          mediaTypeFilter
         );
         setSmartRecs(results);
       } catch {

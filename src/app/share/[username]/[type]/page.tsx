@@ -190,11 +190,11 @@ export default async function ShareTypePage({ params }: Props) {
                   </span>
                 </div>
 
-                <div className="flex items-center gap-2 py-3 px-3 flex-1 overflow-x-auto min-h-[7rem] scrollbar-thin">
+                <div className="flex items-center gap-2 py-3 px-3 flex-1 overflow-x-auto min-h-[7rem] scrollbar-thin" style={{ WebkitOverflowScrolling: "touch" }}>
                   {items.map((entry) => (
                     <div
                       key={entry.id}
-                      className="relative w-[60px] h-[90px] sm:w-[80px] sm:h-[120px] rounded-lg overflow-hidden border border-white/10 shrink-0 group shadow-md hover:shadow-lg transition-shadow"
+                      className="relative w-[70px] h-[100px] sm:w-[80px] sm:h-[120px] rounded-lg overflow-hidden border border-white/10 shrink-0 group shadow-md hover:shadow-lg transition-shadow"
                     >
                       {entry.coverUrl ? (
                         <Image src={entry.coverUrl} alt={entry.title} fill className="object-cover" sizes="80px" />
