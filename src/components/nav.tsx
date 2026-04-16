@@ -1,6 +1,18 @@
+"use client";
+
 import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useAuth } from "@/lib/auth-context";
 
 export function Nav() {
+  const { user, isConfigured, signOut } = useAuth();
+  const router = useRouter();
+
+  async function handleSignOut() {
+    await signOut();
+    router.push("/login");
+  }
+
   return (
     <nav className="flex items-center px-6 py-4 border-b border-white/5">
       <Link href="/" className="flex items-baseline gap-1">
@@ -14,7 +26,7 @@ export function Nav() {
           味覚
         </span>
       </Link>
-      <ul className="flex gap-6 ml-auto">
+      <ul className="flex gap-6 ml-auto items-center">
         <li>
           <Link href="/" className="text-sm text-zinc-400 hover:text-white transition-colors">
             Collection
@@ -40,6 +52,32 @@ export function Nav() {
             Stats
           </Link>
         </li>
+
+        {/* Auth section */}
+        {isConfigured && user ? (
+          <>
+            <li className="text-xs text-zinc-500 border-l border-white/10 pl-6">
+              {user.user_metadata?.username || user.email?.split("@")[0] || "User"}
+            </li>
+            <li>
+              <button
+                onClick={handleSignOut}
+                className="text-sm text-zinc-500 hover:text-red-400 transition-colors"
+              >
+                Sign Out
+              </button>
+            </li>
+          </>
+        ) : isConfigured ? (
+          <li className="border-l border-white/10 pl-6">
+            <Link
+              href="/login"
+              className="text-sm text-[#638dff] hover:text-[#4f7aff] transition-colors"
+            >
+              Sign In
+            </Link>
+          </li>
+        ) : null}
       </ul>
     </nav>
   );
