@@ -29,14 +29,17 @@
     "tier": "S",
     "status": "completed",
     "notes": "",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/93285-mnjMdil9LnNT.jpg",
-    "author": "Hatch",
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/large/bx1-CXtrrkMpJ8Zq.png",
+    "author": "Naoki Urasawa",
     "genres": [
-      "hentai"
+      "drama",
+      "mystery",
+      "psychological",
+      "thriller"
     ],
-    "year": 2014,
+    "year": 1994,
     "source": "anilist",
-    "sourceId": "93285",
+    "sourceId": "1",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z"
   },
@@ -198,7 +201,7 @@
     "status": "completed",
     "notes": "",
     "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30664-JJq9tosQvlpW.jpg",
-    "author": "Katsuhiro Ootomo",
+    "author": "Katsuhiro Otomo",
     "genres": [
       "action",
       "horror",
@@ -473,7 +476,7 @@
     "type": "manga",
     "tier": "A",
     "status": "completed",
-    "notes": "Naoki Urasawa — STILL PUBLISHING, A tier so far",
+    "notes": "Naoki Urasawa \u2014 STILL PUBLISHING, A tier so far",
     "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx104487-sct3z5M0DttW.png",
     "author": "Naoki Urasawa",
     "genres": [
@@ -709,7 +712,7 @@
     "type": "manga",
     "tier": "B",
     "status": "completed",
-    "notes": "manga, NOT FINISHED — anime is A tier so far",
+    "notes": "manga, NOT FINISHED \u2014 anime is A tier so far",
     "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx101517-H3TdM3g5ZUe9.jpg",
     "author": "Gege Akutami",
     "genres": [
@@ -872,7 +875,7 @@
     "type": "manga",
     "tier": "C",
     "status": "completed",
-    "notes": "NOT FINISHED — only up to vol 50",
+    "notes": "NOT FINISHED \u2014 only up to vol 50",
     "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30012-1epmVfTSv2rr.png",
     "author": "Tite Kubo",
     "genres": [
@@ -913,7 +916,7 @@
     "status": "completed",
     "notes": "",
     "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30145-ipNuwNgD5AJS.png",
-    "author": "manga",
+    "author": "Harold Sakuishi",
     "genres": [
       "comedy",
       "drama",
@@ -921,7 +924,7 @@
       "romance",
       "slice of life"
     ],
-    "year": 2000,
+    "year": 1999,
     "source": "anilist",
     "sourceId": "30145",
     "nyaaCategory": "3_0",
@@ -1359,16 +1362,17 @@
     "tier": "S",
     "status": "completed",
     "notes": "manga S",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124756-4DBO8VSFaJ6Y.jpg",
-    "author": "anime",
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx19-ham53gnijfiN.jpg",
+    "author": "",
     "genres": [
-      "action",
-      "adventure",
-      "comedy"
+      "drama",
+      "mystery",
+      "psychological",
+      "thriller"
     ],
-    "year": 2019,
+    "year": 2004,
     "source": "anilist",
-    "sourceId": "124756",
+    "sourceId": "19",
     "nyaaCategory": "1_0",
     "addedAt": "2026-04-16T10:31:46.278Z"
   },
@@ -1658,7 +1662,7 @@
     "status": "completed",
     "notes": "",
     "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx918-iOaeBVUn4uK7.jpg",
-    "author": "assumed — please confirm",
+    "author": "assumed \u2014 please confirm",
     "genres": [
       "action",
       "comedy",
