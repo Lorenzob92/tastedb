@@ -18,6 +18,9 @@ export interface MediaEntry {
   nyaaCategory: string;
   addedAt: string;
   description: string;
+  animeTier?: Tier | null;
+  mangaTier?: Tier | null;
+  alsoAnime?: boolean;
 }
 
 export interface Recommendation {

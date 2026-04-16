@@ -37,8 +37,8 @@ export function MediaCard({ entry }: MediaCardProps) {
           )}
 
           {entry.tier && (
-            <div className="absolute top-1.5 right-1.5">
-              <TierBadge tier={entry.tier} size="sm" />
+            <div className="absolute top-1.5 right-1.5 bg-black/60 backdrop-blur-sm rounded p-0.5">
+              <TierBadge tier={entry.tier} size="md" />
             </div>
           )}
         </div>

@@ -7,7 +7,7 @@
     "status": "completed",
     "notes": "",
     "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30002-Cul4OeN7bYtn.jpg",
-    "author": "",
+    "author": "Kentarou Miura",
     "genres": [
       "action",
       "adventure",
@@ -30,7 +30,7 @@
     "tier": "S",
     "status": "completed",
     "notes": "",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/93285-mnjMdil9LnNT.jpg",
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx30001-Knby7l1jevE7.jpg",
     "author": "Naoki Urasawa",
     "genres": [
       "drama",
@@ -40,10 +40,13 @@
     ],
     "year": 1994,
     "source": "anilist",
-    "sourceId": "93285",
+    "sourceId": "30001",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "1-4. SexG; Comic Aun 2013-10~12, 2014-02\n5. Aisaki Natsumi 14-sai Debut (相咲なつみ14歳デビュー); 2013-06\n6. Monster (モンスター); 2014-03\n7. Yureru 2-dan Bed (揺れる2段ベッド); 2014-04+05"
+    "description": "Kenzou Tenma, a Japanese brain surgeon in Germany, had it all: an acclaimed career at a prestigious hospital, a beautiful fiancée, and a promising future. But all that changed one night when Dr. Tenma chose to save the life of a small boy over that of the town mayor, leading to the loss of almost everything he had worked for. His fiancée, his position, his prestige—all gone. A series of mysterious murders begins to occur soon afterward, ones that seem to be connected to the boy he saved. The questions that now haunt Dr. Tenma are ones that only he can answer: Who is the boy he saved, and what has he become?",
+    "mangaTier": "S",
+    "animeTier": "S",
+    "alsoAnime": true
   },
   {
     "id": "20th-century-boys-21st-century-boys-manga",
@@ -103,14 +106,19 @@
       "mecha",
       "mystery",
       "psychological",
-      "sci-fi"
+      "sci-fi",
+      "action",
+      "thriller"
     ],
     "year": 2003,
     "source": "anilist",
     "sourceId": "30745",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "In an ideal world where man and robots coexist, someone or something has destroyed the powerful Swiss robot Mont Blanc. Elsewhere a key figure in a robot rights group is murdered. The two incidents appear to be unrelated...except for one very conspicuous clue - the bodies of both victims have been fashioned into some sort of bizarre collage complete with makeshift horns placed by the victims' heads. Interpol assigns robot detective Gesicht to this most strange and complex case - and he eventually discovers that he too, as one of the seven great robots of the world, is one of the targets.\n\n(Source: VIZ Media)"
+    "description": "In an ideal world where man and robots coexist, someone or something has destroyed the powerful Swiss robot Mont Blanc. Elsewhere a key figure in a robot rights group is murdered. The two incidents appear to be unrelated...except for one very conspicuous clue - the bodies of both victims have been fashioned into some sort of bizarre collage complete with makeshift horns placed by the victims' heads. Interpol assigns robot detective Gesicht to this most strange and complex case - and he eventually discovers that he too, as one of the seven great robots of the world, is one of the targets.\n\n(Source: VIZ Media)",
+    "mangaTier": "S",
+    "animeTier": "S",
+    "alsoAnime": true
   },
   {
     "id": "attack-on-titan-manga",
@@ -132,7 +140,10 @@
     "sourceId": "53390",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "In this post-apocalyptic sci-fi story, humanity has been devastated by the bizarre, giant humanoids known as the Titans. Little is known about where they came from or why they are bent on consuming mankind. Seemingly unintelligent, they have roamed the world for years, killing everyone they see. For the past century, what's left of man has hidden in a giant, three-walled city. People believe their 50-meter-high walls will protect them from the Titans, but the sudden appearance of an immense Titan is about to change everything.\n\n(Source: Kodansha USA)\n\nNote: Includes two extra chapters."
+    "description": "Several hundred years ago, humans were nearly exterminated by titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest of titans.\r\nFlash forward to the present and the city has not seen a titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a colossal titan that appears out of thin air. As the smaller titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single titan and take revenge for all of mankind.\r\n(Source: MangaHelpers)",
+    "mangaTier": "S",
+    "animeTier": "S",
+    "alsoAnime": true
   },
   {
     "id": "fullmetal-alchemist-manga",
@@ -178,7 +189,10 @@
     "sourceId": "105778",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "The name says it all! Denji's life of poverty is changed forever when he merges with his pet chainsaw dog, Pochita! Now he's living in the big city and an official Devil Hunter. But he's got a lot to learn about his new job and chainsaw powers!\n\n(Source: MANGA Plus)\n\nNotes:\n- Nominated for the 2020 Manga Taisho Award.\n- Winner of the 2021 Kono Manga ga Sugoi Award.\n- Winner of the 66th Shogakukan Manga Award in the shounen category.\n- Winner of the 2021 and 2022 Harvey Award for Best Manga.\n- Chapters 1-97 were released in Weekly Shounen Jump from Dec 3, 2018 to Dec 13, 2020. The series resumed from Ch. 98 in Shounen Jump+ on July 12, 2022"
+    "description": "The name says it all! Denji's life of poverty is changed forever when he merges with his pet chainsaw dog, Pochita! Now he's living in the big city and an official Devil Hunter. But he's got a lot to learn about his new job and chainsaw powers!\n\n(Source: MANGA Plus)\n\nNotes:\n- Nominated for the 2020 Manga Taisho Award.\n- Winner of the 2021 Kono Manga ga Sugoi Award.\n- Winner of the 66th Shogakukan Manga Award in the shounen category.\n- Winner of the 2021 and 2022 Harvey Award for Best Manga.\n- Chapters 1-97 were released in Weekly Shounen Jump from Dec 3, 2018 to Dec 13, 2020. The series resumed from Ch. 98 in Shounen Jump+ on July 12, 2022",
+    "mangaTier": "S",
+    "animeTier": "S",
+    "alsoAnime": true
   },
   {
     "id": "vinland-saga-manga",
@@ -199,7 +213,10 @@
     "sourceId": "30642",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "As a child, Thorfinn sat at the feet of the great Leif Ericson and thrilled to wild tales of a land far to the west. But his youthful fantasies were shattered by a mercenary raid. Raised by the Vikings who murdered his father, Thorfinn became a terrifying warrior, forever seeking to kill the band's leader, Askeladd, and avenge his father. Sustaining Thorfinn through his ordeal are his pride in his family and his dreams of a fertile westward land, a land without war or slavery … the land Leif called Vinland.\n\n(Source: Kodansha USA)\n\nNotes:\n- Won the Grand Prize at the Japan Media Arts Festival in 2009.\n- Winner of the 36th Kodansha Manga Award in the General category in 2012."
+    "description": "As a child, Thorfinn sat at the feet of the great Leif Ericson and thrilled to wild tales of a land far to the west. But his youthful fantasies were shattered by a mercenary raid. Raised by the Vikings who murdered his father, Thorfinn became a terrifying warrior, forever seeking to kill the band's leader, Askeladd, and avenge his father. Sustaining Thorfinn through his ordeal are his pride in his family and his dreams of a fertile westward land, a land without war or slavery … the land Leif called Vinland.\n\n(Source: Kodansha USA)\n\nNotes:\n- Won the Grand Prize at the Japan Media Arts Festival in 2009.\n- Winner of the 36th Kodansha Manga Award in the General category in 2012.",
+    "mangaTier": "S",
+    "animeTier": "S",
+    "alsoAnime": true
   },
   {
     "id": "akira-manga",
@@ -214,14 +231,19 @@
       "action",
       "horror",
       "psychological",
-      "sci-fi"
+      "sci-fi",
+      "drama",
+      "supernatural"
     ],
     "year": 1982,
     "source": "anilist",
     "sourceId": "30664",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "Welcome to Neo-Tokyo, built on the ashes of a Tokyo annihilated by a blast of unknown origin that triggered World War III. The lives of two streetwise teenage friends, Tetsuo and Kaneda, change forever when paranormal abilities begin to waken in Tetsuo, making him a target for a shadowy agency that will stop at nothing to prevent another catastrophe like the one that leveled Tokyo. At the core of the agency's motivation is a raw, all-consuming fear of an unthinkable, monstrous power known only as Akira.\n\n(Source: Kodansha USA)"
+    "description": "Welcome to Neo-Tokyo, built on the ashes of a Tokyo annihilated by a blast of unknown origin that triggered World War III. The lives of two streetwise teenage friends, Tetsuo and Kaneda, change forever when paranormal abilities begin to waken in Tetsuo, making him a target for a shadowy agency that will stop at nothing to prevent another catastrophe like the one that leveled Tokyo. At the core of the agency's motivation is a raw, all-consuming fear of an unthinkable, monstrous power known only as Akira.\n\n(Source: Kodansha USA)",
+    "mangaTier": "S",
+    "animeTier": "S",
+    "alsoAnime": true
   },
   {
     "id": "blame-manga",
@@ -532,7 +554,10 @@
     "sourceId": "108556",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "The master spy codenamed &lt;Twilight&gt; has spent his days on undercover missions, all for the dream of a better world. But one day, he receives a particularly difficult new order from command. For his mission, he must form a temporary family and start a new life?! A Spy/Action/Comedy about a one-of-a-kind family!\n(Source: MANGA Plus)\nNotes:\n- Nominated for the 24th Tezuka Osamu Cultural Prize in 2020.\n- Nominated for the 13th and 14th Manga Taisho Award in 2020 and 2021.\n- Nominated for the 44th Kodansha Manga Award in the Shounen Category in 2020."
+    "description": "Everyone has a part of themselves they cannot show to anyone else.\n\nAt a time when all nations of the world were involved in a fierce war of information happening behind closed doors, Ostania and Westalis had been in a state of cold war against one another for decades. The Westalis Intelligence Services' Eastern-Focused Division (WISE) sends their most talented spy, \"Twilight,\" on a top-secret mission to investigate the movements of Donovan Desmond, the chairman of Ostania's National Unity Party, who is threatening peace efforts between the two nations.\n\nThis mission is known as \"Operation Strix.\" It consists of \"putting together a family in one week in order to infiltrate social gatherings organized by the elite school that Desmond's son attends.\" \n\"Twilight\" takes on the identity of psychiatrist Loid Forger and starts looking for family members. But Anya, the daughter he adopts, turns out to have the ability to read people's minds, while his wife, Yor, is an assassin! With it being in each of their own interests to keep these facts hidden, they start living together while concealing their true identities from one another. \nWorld peace is now in the hands of this brand-new family as they embark on an adventure full of surprises.\n\n(Source: Crunchyroll)",
+    "mangaTier": "A",
+    "animeTier": "A",
+    "alsoAnime": true
   },
   {
     "id": "dandadan-manga",
@@ -556,7 +581,10 @@
     "sourceId": "132029",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "Momo Ayase strikes up an unusual friendship with her school’s UFO fanatic, whom she nicknames “Okarun” because he has a name that is not to be said aloud. While Momo believes in spirits, she thinks aliens are nothing but nonsense. Her new friend, meanwhile, thinks the exact opposite. To settle matters, the two set out to prove each other wrong—Momo to a UFO hotspot and Okarun to a haunted tunnel! What unfolds next is a beautiful story of young love…and oddly horny aliens and spirits?\n\n(Source: VIZ Media) \n\nNote: Nominated for the 15th Manga Taisho Award in 2022."
+    "description": "This is a story about Momo, a high school girl who comes from a family of spirit mediums, and her classmate Okarun, an occult fanatic. After Momo rescues Okarun from being bullied, they begin talking. However, an argument ensues between them since Momo believes in ghosts but denies aliens exist, and Okarun believes in aliens but denies ghosts exist.\n\nTo prove to each other what they believe in is real, Momo goes to an abandoned hospital where a UFO has been spotted and Okarun goes to a tunnel rumored to be haunted. To their surprise, they each encounter overwhelming paranormal activities that transcend comprehension. Amid these predicaments, Momo awakens her hidden power and Okarun gains the power of a curse to overcome these new dangers! Their fateful love begins as well!?\n\nThe story of the occult battle and adolescence starts!\n(Source: Crunchyroll) \n\nNotes: \n- Worldwide premiere of Episode 1 before the Japanese television premiere occurred at Anime Expo July 6, 2024. \n- Episodes 1-3 titled as DAN DA DAN: FIRST ENCOUNTER was pre-screened in advance in theaters on August 31, 2024 in Asia, September 7, 2024 in Europe and September 13, 2024 in North America. The regular TV broadcast began October 4, 2024.",
+    "mangaTier": "A",
+    "animeTier": "A",
+    "alsoAnime": true
   },
   {
     "id": "dungeon-meshi-manga",
@@ -745,7 +773,7 @@
     "id": "jujutsu-kaisen-manga",
     "title": "Jujutsu Kaisen",
     "type": "manga",
-    "tier": "B",
+    "tier": "A",
     "status": "completed",
     "notes": "manga, NOT FINISHED — anime is A tier so far",
     "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx101517-H3TdM3g5ZUe9.jpg",
@@ -760,7 +788,10 @@
     "sourceId": "101517",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "Although Yuji Itadori looks like your average teenager, his immense physical strength is something to behold! Every sports club wants him to join, but Itadori would rather hang out with the school outcasts in the Occult Research Club. One day, the club manages to get their hands on a sealed cursed object. Little do they know the terror they’ll unleash when they break the seal…\n\n(Source: VIZ Media)\n\nNotes:\n- Ranked 1st in Japan's Bookstore Employees Top Manga of 2018.\n- Nominated for the 25th Annual Tezuka Osamu Cultural Prize in 2021.\n- Nominated for the 65th Shogakukan Manga Award in the Shounen Category in 2019.\n- Includes one extra chapter."
+    "description": "A boy fights... for \"the right death.\"\n\nHardship, regret, shame: the negative feelings that humans feel become Curses that lurk in our everyday lives. The Curses run rampant throughout the world, capable of leading people to terrible misfortune and even death. What's more, the Curses can only be exorcised by another Curse.\n\nItadori Yuji is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a friend who has been attacked by Curses, he eats the finger of the Double-Faced Specter, taking the Curse into his own soul. From then on, he shares one body with the Double-Faced Specter. Guided by the most powerful of sorcerers, Gojou Satoru, Itadori is admitted to the Tokyo Metropolitan Technical High School of Sorcery, an organization that fights the Curses... and thus begins the heroic tale of a boy who became a Curse to exorcise a Curse, a life from which he could never turn back.\n\n(Source: Crunchyroll)\n\nNote: The first episode received an early web premiere on September 19th, 2020. The regular TV broadcast started on October 3rd, 2020.",
+    "mangaTier": "B",
+    "animeTier": "A",
+    "alsoAnime": true
   },
   {
     "id": "jojos-bizarre-adventure-part-3-stardust-crusaders-manga",
@@ -1329,142 +1360,6 @@
     "description": "In the early twentieth century, Russo-Japanese War veteran Saichi “Immortal” Sugimoto scratches out a meager existence during the postwar gold rush in the wilderness of Hokkaido. When he stumbles across a map to a fortune in hidden Ainu gold, he sets off on a treacherous quest to find it. But Sugimoto is not the only interested party, and everyone who knows about the gold will kill to possess it! Faced with the harsh conditions of the northern wilderness, ruthless criminals and rogue Japanese soldiers, Sugimoto will need all his skills and luck—and the help of an Ainu girl named Asirpa—to survive.\n\n(Source: VIZ Media)"
   },
   {
-    "id": "akira-anime",
-    "title": "Akira",
-    "type": "anime",
-    "tier": "S",
-    "status": "completed",
-    "notes": "",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx126016-9PaIQHxFyyho.png",
-    "author": "film",
-    "genres": [
-      "action",
-      "drama",
-      "horror",
-      "psychological",
-      "sci-fi",
-      "supernatural"
-    ],
-    "year": 0,
-    "source": "anilist",
-    "sourceId": "126016",
-    "nyaaCategory": "1_0",
-    "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "Announced at Anime Expo 2019, the project is meant to be a complete adaptation of Ootomo Katsuhiro's post-apocalyptic cyberpunk manga AKIRA."
-  },
-  {
-    "id": "pluto-anime",
-    "title": "Pluto",
-    "type": "anime",
-    "tier": "S",
-    "status": "completed",
-    "notes": "manga already S, informational only",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx99088-LTJskMD1wbbQ.png",
-    "author": "Netflix 2023",
-    "genres": [
-      "action",
-      "drama",
-      "mecha",
-      "mystery",
-      "psychological",
-      "sci-fi",
-      "thriller"
-    ],
-    "year": 2023,
-    "source": "anilist",
-    "sourceId": "99088",
-    "nyaaCategory": "1_0",
-    "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "A murder occurs in an orderly world where robots are unable to kill humans. The robotic Europol investigator Gesicht takes the case, but the mystery deepens when he finds no trace of a human at the scene of the crime. As he pursues the truth, Gesicht uncovers the most evil manifestation of hate that history has ever seen, one that is bent on bringing destruction to the world ...\n\n(Source: Netflix)"
-  },
-  {
-    "id": "attack-on-titan-anime",
-    "title": "Attack on Titan",
-    "type": "anime",
-    "tier": "S",
-    "status": "completed",
-    "notes": "manga S",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx16498-buvcRTBx4NSm.jpg",
-    "author": "anime",
-    "genres": [
-      "action",
-      "drama",
-      "fantasy",
-      "mystery"
-    ],
-    "year": 2013,
-    "source": "anilist",
-    "sourceId": "16498",
-    "nyaaCategory": "1_0",
-    "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "Several hundred years ago, humans were nearly exterminated by titans. Titans are typically several stories tall, seem to have no intelligence, devour human beings and, worst of all, seem to do it for the pleasure rather than as a food source. A small percentage of humanity survived by walling themselves in a city protected by extremely high walls, even taller than the biggest of titans.\r\nFlash forward to the present and the city has not seen a titan in over 100 years. Teenage boy Eren and his foster sister Mikasa witness something horrific as the city walls are destroyed by a colossal titan that appears out of thin air. As the smaller titans flood the city, the two kids watch in horror as their mother is eaten alive. Eren vows that he will murder every single titan and take revenge for all of mankind.\r\n(Source: MangaHelpers)"
-  },
-  {
-    "id": "vinland-saga-anime",
-    "title": "Vinland Saga",
-    "type": "anime",
-    "tier": "S",
-    "status": "completed",
-    "notes": "manga S",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx101348-2fhDFPCuMNiz.jpg",
-    "author": "anime",
-    "genres": [
-      "action",
-      "adventure",
-      "drama"
-    ],
-    "year": 2019,
-    "source": "anilist",
-    "sourceId": "101348",
-    "nyaaCategory": "1_0",
-    "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "Thorfinn is son to one of the Vikings' greatest warriors, but when his father is killed in battle by the mercenary leader Askeladd, he swears to have his revenge. Thorfinn joins Askeladd's band in order to challenge him to a duel, and ends up caught in the middle of a war for the crown of England.\n\n(Source: Kodansha USA)"
-  },
-  {
-    "id": "monster-anime",
-    "title": "Monster",
-    "type": "anime",
-    "tier": "S",
-    "status": "completed",
-    "notes": "manga S",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx124756-4DBO8VSFaJ6Y.jpg",
-    "author": "Satoru Noda",
-    "genres": [
-      "drama",
-      "mystery",
-      "psychological",
-      "thriller"
-    ],
-    "year": 2004,
-    "source": "anilist",
-    "sourceId": "124756",
-    "nyaaCategory": "1_0",
-    "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "OVAs bundled with the 17th, 19th, and 23rd tankoubon volumes of the Golden Kamuy manga."
-  },
-  {
-    "id": "chainsaw-man-anime",
-    "title": "Chainsaw Man",
-    "type": "anime",
-    "tier": "S",
-    "status": "completed",
-    "notes": "manga S",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx127230-DdP4vAdssLoz.png",
-    "author": "anime",
-    "genres": [
-      "action",
-      "drama",
-      "horror",
-      "supernatural"
-    ],
-    "year": 2022,
-    "source": "anilist",
-    "sourceId": "127230",
-    "nyaaCategory": "1_0",
-    "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "Denji is a teenage boy living with a Chainsaw Devil named Pochita. Due to the debt his father left behind, he has been living a rock-bottom life while repaying his debt by harvesting devil corpses with Pochita.\nOne day, Denji is betrayed and killed. As his consciousness fades, he makes a contract with Pochita and gets revived as \"Chainsaw Man\" — a man with a devil's heart.\n\n(Source: Crunchyroll)"
-  },
-  {
     "id": "demon-slayer-anime",
     "title": "Demon Slayer",
     "type": "anime",
@@ -1484,73 +1379,6 @@
     "nyaaCategory": "1_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
     "description": "The MMORPG Onigiri thrusts its players into mystical Japan, a land filled with mythical creatures of Japanese legend. Starting as a lone Oni, players fight against the malevolent influence of the Kamikui as their miasma spreads over the land. 8 NPCS, each with their own distinct personality and skills, ally themselves with the player to help build a legend, and quell the evil that has arisen. As you grow stronger together, so do the bonds binding you to each other.\n\n(Source: Anime News Network)"
-  },
-  {
-    "id": "jujutsu-kaisen-anime",
-    "title": "Jujutsu Kaisen",
-    "type": "anime",
-    "tier": "A",
-    "status": "reading",
-    "notes": "so far, not finished",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx113415-LHBAeoZDIsnF.jpg",
-    "author": "",
-    "genres": [
-      "action",
-      "drama",
-      "supernatural"
-    ],
-    "year": 2020,
-    "source": "anilist",
-    "sourceId": "113415",
-    "nyaaCategory": "1_0",
-    "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "A boy fights... for \"the right death.\"\n\nHardship, regret, shame: the negative feelings that humans feel become Curses that lurk in our everyday lives. The Curses run rampant throughout the world, capable of leading people to terrible misfortune and even death. What's more, the Curses can only be exorcised by another Curse.\n\nItadori Yuji is a boy with tremendous physical strength, though he lives a completely ordinary high school life. One day, to save a friend who has been attacked by Curses, he eats the finger of the Double-Faced Specter, taking the Curse into his own soul. From then on, he shares one body with the Double-Faced Specter. Guided by the most powerful of sorcerers, Gojou Satoru, Itadori is admitted to the Tokyo Metropolitan Technical High School of Sorcery, an organization that fights the Curses... and thus begins the heroic tale of a boy who became a Curse to exorcise a Curse, a life from which he could never turn back.\n\n(Source: Crunchyroll)\n\nNote: The first episode received an early web premiere on September 19th, 2020. The regular TV broadcast started on October 3rd, 2020."
-  },
-  {
-    "id": "spy-x-family-anime",
-    "title": "Spy x Family",
-    "type": "anime",
-    "tier": "A",
-    "status": "completed",
-    "notes": "",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx140960-Kb6R5nYQfjmP.jpg",
-    "author": "Tatsuya Endou",
-    "genres": [
-      "action",
-      "comedy",
-      "slice of life",
-      "supernatural"
-    ],
-    "year": 2022,
-    "source": "anilist",
-    "sourceId": "140960",
-    "nyaaCategory": "1_0",
-    "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "Everyone has a part of themselves they cannot show to anyone else.\n\nAt a time when all nations of the world were involved in a fierce war of information happening behind closed doors, Ostania and Westalis had been in a state of cold war against one another for decades. The Westalis Intelligence Services' Eastern-Focused Division (WISE) sends their most talented spy, \"Twilight,\" on a top-secret mission to investigate the movements of Donovan Desmond, the chairman of Ostania's National Unity Party, who is threatening peace efforts between the two nations.\n\nThis mission is known as \"Operation Strix.\" It consists of \"putting together a family in one week in order to infiltrate social gatherings organized by the elite school that Desmond's son attends.\" \n\"Twilight\" takes on the identity of psychiatrist Loid Forger and starts looking for family members. But Anya, the daughter he adopts, turns out to have the ability to read people's minds, while his wife, Yor, is an assassin! With it being in each of their own interests to keep these facts hidden, they start living together while concealing their true identities from one another. \nWorld peace is now in the hands of this brand-new family as they embark on an adventure full of surprises.\n\n(Source: Crunchyroll)"
-  },
-  {
-    "id": "dandadan-anime",
-    "title": "Dandadan",
-    "type": "anime",
-    "tier": "A",
-    "status": "completed",
-    "notes": "",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx171018-60q1B6GK2Ghb.jpg",
-    "author": "",
-    "genres": [
-      "action",
-      "comedy",
-      "drama",
-      "romance",
-      "sci-fi",
-      "supernatural"
-    ],
-    "year": 2024,
-    "source": "anilist",
-    "sourceId": "171018",
-    "nyaaCategory": "1_0",
-    "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "This is a story about Momo, a high school girl who comes from a family of spirit mediums, and her classmate Okarun, an occult fanatic. After Momo rescues Okarun from being bullied, they begin talking. However, an argument ensues between them since Momo believes in ghosts but denies aliens exist, and Okarun believes in aliens but denies ghosts exist.\n\nTo prove to each other what they believe in is real, Momo goes to an abandoned hospital where a UFO has been spotted and Okarun goes to a tunnel rumored to be haunted. To their surprise, they each encounter overwhelming paranormal activities that transcend comprehension. Amid these predicaments, Momo awakens her hidden power and Okarun gains the power of a curse to overcome these new dangers! Their fateful love begins as well!?\n\nThe story of the occult battle and adolescence starts!\n(Source: Crunchyroll) \n\nNotes: \n- Worldwide premiere of Episode 1 before the Japanese television premiere occurred at Anime Expo July 6, 2024. \n- Episodes 1-3 titled as DAN DA DAN: FIRST ENCOUNTER was pre-screened in advance in theaters on August 31, 2024 in Asia, September 7, 2024 in Europe and September 13, 2024 in North America. The regular TV broadcast began October 4, 2024."
   },
   {
     "id": "samurai-champloo-anime",
@@ -1625,7 +1453,7 @@
     "status": "completed",
     "notes": "",
     "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx437-69NMlXKFeuse.jpg",
-    "author": "film",
+    "author": "",
     "genres": [
       "drama",
       "horror",
@@ -1647,7 +1475,7 @@
     "status": "completed",
     "notes": "",
     "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/b1943-jMCEYL1Ixmgc.png",
-    "author": "film",
+    "author": "",
     "genres": [
       "fantasy",
       "mystery",
@@ -1762,7 +1590,7 @@
     "tier": "A",
     "status": "completed",
     "notes": "matches manga tiers per part",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx666-kYzXvKlUbeMP.jpg",
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/bx14719-VT5dRzTBSZ0w.jpg",
     "author": "Hirohiko Araki",
     "genres": [
       "action",
@@ -1771,7 +1599,7 @@
     ],
     "year": 2012,
     "source": "anilist",
-    "sourceId": "666",
+    "sourceId": "14719",
     "nyaaCategory": "1_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
     "description": "Kujo Jotaro is a normal, popular Japanese high-schooler, until he thinks that he is possessed by a spirit, and locks himself in prison. After seeing his grandfather, Joseph Joestar, and fighting Joseph's friend Muhammad Abdul, Jotaro learns that the \"Spirit\" is actually Star Platinum, his Stand, or fighting energy given a semi-solid form. Later, his mother gains a Stand, and becomes sick. Jotaro learns that it is because the vampire Dio Brando has been revived 100 years after his defeat to Jonathan Joestar, Jotaro's great-great-grandfather. Jotaro decides to join Joseph and Abdul in a trip to Egypt to defeat Dio once and for all."
@@ -1981,7 +1809,7 @@
     "tier": "B",
     "status": "completed",
     "notes": "S1 was S, S2 was B, averaged out here",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21462-WGvALLK3Ycjx.jpg",
+    "coverUrl": "",
     "author": "",
     "genres": [
       "action",
@@ -1992,7 +1820,7 @@
     ],
     "year": 2017,
     "source": "",
-    "sourceId": "21462",
+    "sourceId": "",
     "nyaaCategory": "1_0",
     "addedAt": "2026-04-16T10:31:46.278Z"
   },

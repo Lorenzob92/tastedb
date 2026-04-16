@@ -39,9 +39,11 @@ export default function StatsPage() {
     .slice(0, 10);
 
   // Top 8 authors by entry count
+  const INVALID_AUTHORS = new Set(["film", "anime", "manga", "netflix", ""]);
   const authorMap: Record<string, number> = {};
   for (const e of entries) {
-    if (e.author && e.author.trim()) {
+    const author = (e.author ?? "").trim();
+    if (author.length >= 3 && !INVALID_AUTHORS.has(author.toLowerCase())) {
       authorMap[e.author] = (authorMap[e.author] ?? 0) + 1;
     }
   }
