@@ -661,7 +661,7 @@
     "tier": "B",
     "status": "completed",
     "notes": "",
-    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/b85710-OlD6yGX7yLdx.jpg",
+    "coverUrl": "https://s4.anilist.co/file/anilistcdn/media/manga/cover/medium/bx63327-glC9cDxYBja9.png",
     "author": "Sui Ishida",
     "genres": [
       "action",
@@ -672,10 +672,11 @@
     ],
     "year": 2011,
     "source": "anilist",
-    "sourceId": "85710",
+    "sourceId": "63327",
     "nyaaCategory": "3_0",
     "addedAt": "2026-04-16T10:31:46.278Z",
-    "description": "The prototype of the series prior to its serialization."
+    "description": "Shy Ken Kaneki is thrilled to go on a date with the beautiful Rize. But it turns out that she's only interested in his body, specifically his flesh. When he comes to, he's been turned into a half-ghoul, and his life is thrown into chaos.",
+    "manualFix": true
   },
   {
     "id": "dragon-ball-manga",
