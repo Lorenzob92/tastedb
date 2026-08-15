@@ -327,25 +327,16 @@ export default async function SharePage({ params }: Props) {
 
         <div className="relative px-4 sm:px-6 py-12 sm:py-20">
           <div className="max-w-lg mx-auto text-center">
-            <h2 className="text-xl sm:text-3xl font-black text-white">
-              Create your own tier list
-            </h2>
+            <h2 className="text-xl sm:text-3xl font-black text-white">Explore TasteDB</h2>
             <p className="text-xs sm:text-sm text-zinc-400 mt-2 sm:mt-3 leading-relaxed">
-              Join tastedb and track, rate, and share your manga, anime, movies,
-              and games collection.
+              Browse manga, anime, movies, games, and the Japanese learning watchlist.
             </p>
-            <div className="mt-8 flex flex-col items-center gap-3">
+            <div className="mt-8 flex justify-center">
               <Link
-                href="/signup"
+                href="/"
                 className="inline-flex items-center justify-center px-8 py-3 rounded-xl bg-[#638dff] text-white font-bold text-sm hover:bg-[#4f7aff] transition-colors shadow-lg shadow-[#638dff]/20"
               >
-                Sign Up Free
-              </Link>
-              <Link
-                href="/login"
-                className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors"
-              >
-                Already have an account? Sign in
+                Open TasteDB
               </Link>
             </div>
           </div>

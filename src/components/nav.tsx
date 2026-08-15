@@ -1,16 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useAuth } from "@/lib/auth-context";
 
 export function Nav() {
-  const { user, isConfigured, signOut } = useAuth();
-
-  async function handleSignOut() {
-    await signOut();
-    window.location.href = "/login";
-  }
-
   return (
     <nav className="flex items-center px-4 md:px-6 py-4 border-b border-white/5">
       <Link href="/" className="flex items-baseline gap-1 shrink-0">
@@ -59,31 +51,6 @@ export function Nav() {
           </Link>
         </li>
 
-        {/* Auth section */}
-        {isConfigured && user ? (
-          <>
-            <li className="text-xs text-zinc-500 border-l border-white/10 pl-4 md:pl-6 shrink-0">
-              {user.user_metadata?.username || user.email?.split("@")[0] || "User"}
-            </li>
-            <li className="shrink-0">
-              <button
-                onClick={handleSignOut}
-                className="text-sm text-zinc-500 hover:text-red-400 transition-colors"
-              >
-                Sign Out
-              </button>
-            </li>
-          </>
-        ) : isConfigured ? (
-          <li className="border-l border-white/10 pl-4 md:pl-6 shrink-0">
-            <Link
-              href="/login"
-              className="text-sm text-[#638dff] hover:text-[#4f7aff] transition-colors"
-            >
-              Sign In
-            </Link>
-          </li>
-        ) : null}
       </ul>
     </nav>
   );
