@@ -10,7 +10,10 @@
     "summary": "Short, calm workplace, guest and friendship conversations. Some Pokémon names, but little battle jargon.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://www.netflix.com/jp-en/title/81186864",
-    "priority": 1
+    "priority": 1,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2k53AsWsLrMtcbFyH0nVOqQjj2x.jpg",
+    "synopsis": "Welcome to Pokémon Resort, a peaceful getaway for Pokémon to relax and have fun. Which adorable guest will the new concierge Haru befriend and help first?",
+    "tmdbUrl": "https://www.themoviedb.org/tv/221301"
   },
   {
     "id": "rilakkuma-and-kaoru",
@@ -23,7 +26,10 @@
     "summary": "Slow domestic and office language with compact 11 to 12 minute episodes.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://www.netflix.com/title/80196883",
-    "priority": 2
+    "priority": 2,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lzohWj8xtowSXJVN9PsJjZAf1B2.jpg",
+    "synopsis": "Kaoru's unexpected new roommate is Rilakkuma, a bear with a zipper on its back that spends each day just lazing around -- but is impossible to hate.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/84655"
   },
   {
     "id": "doraemon-series",
@@ -35,7 +41,10 @@
     "category": "Foundations",
     "summary": "Home, school, friendship, requests and consequences recur constantly. Gadget vocabulary is the main complication.",
     "subtitleEvidence": "unverified",
-    "priority": 3
+    "priority": 3,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9ZN1P32SHviL3SV51qLivxycvcx.jpg",
+    "synopsis": "Robotic cat Doraemon is sent back in time from the 22nd century to protect 10-year-old Noby, a lazy and uncoordinated boy who is destined to have a tragic future. Doraemon can create secret gadgets from a pocket on his stomach, but they usually cause more bad than good because of Noby's propensity to misuse them.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/65733"
   },
   {
     "id": "chibi-maruko-chan",
@@ -47,7 +56,10 @@
     "category": "Foundations",
     "summary": "Excellent family, school, shopping and neighbourhood speech. Some child slang and period references.",
     "subtitleEvidence": "unverified",
-    "priority": 4
+    "priority": 4,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bfn54AAMuh47IFqeoco0jgeVH1a.jpg",
+    "synopsis": "Meet Maruko, a sweet schoolgirl with a hefty dose of curiosity (and occasional laziness!). She sails through life in a cozy town alongside her loving parents, grandparents, and sister. Maruko has a band of loyal friends, including her closest pal, Tama-chan, but her playful and doting grandpa is at the heart of it all. Life is never dull in this charming series.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/57775"
   },
   {
     "id": "shimajiro",
@@ -59,7 +71,10 @@
     "category": "Foundations",
     "summary": "Very clear routines, instructions, feelings and social behaviour, designed for Japanese children.",
     "subtitleEvidence": "unverified",
-    "priority": 5
+    "priority": 5,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/1qtyRP0yhe7JDPA80irIk64nJqB.jpg",
+    "synopsis": "Shima Shima Tora no Shimajirō is a Japanese anime show aimed at preschoolers. The series debuted on December 13, 1993. Shimajiro was formed in 1988, followed by Kodomo Charenji. It was featured on the E! \"The Soup\" segment.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/20306"
   },
   {
     "id": "anpanman",
@@ -71,7 +86,11 @@
     "category": "Foundations",
     "summary": "Repetitive, clearly delivered moral and action language. Character and fantasy vocabulary recur.",
     "subtitleEvidence": "unverified",
-    "priority": 6
+    "priority": 6,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx1960-ueSmUxBXWuFK.jpg",
+    "tmdbUrl": "https://www.themoviedb.org/movie/792180",
+    "synopsis": "One night, a Star of Life falls down the chimney of a bakery nestled deep in the forest, causing the dough in the oven to come to life. The dough becomes Anpanman, a superhero made of anpan (a sweet roll with bean jam filling). Together with his friends, Anpanman fights his rival Baikinman and helps the malnourished. (Source: Anime News Network)",
+    "anilistUrl": "https://anilist.co/anime/1960"
   },
   {
     "id": "hamtaro",
@@ -83,7 +102,10 @@
     "category": "Foundations",
     "summary": "Short plans, friendship and domestic settings. Cutesy hamster speech should be labelled in the language pack.",
     "subtitleEvidence": "unverified",
-    "priority": 7
+    "priority": 7,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/heeMIthcPavUaNJJl0YPARva2ua.jpg",
+    "synopsis": "The cute and cuddly pet of 10-year-old Laura, Hamtaro is a small hamster with a big sense of adventure! Join Hamtaro and the adorable rodent rascals who captured the hearts of millions of children the world over.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/5622"
   },
   {
     "id": "chis-sweet-home",
@@ -95,7 +117,10 @@
     "category": "Foundations",
     "summary": "Very short domestic episodes and repeated home vocabulary. Cat speech is intentionally childish.",
     "subtitleEvidence": "unverified",
-    "priority": 8
+    "priority": 8,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xEJmKzbOq87E7eMp0eatgmJ2DSa.jpg",
+    "synopsis": "An American Shorthair kitten wanders away from her mother and siblings one day while enjoying a walk outside. Lost in her surroundings, she struggles to find her way back home. She is soon found by the Yamada family. Finding a home for her proves to be difficult, so the family eventually decides to keep the kitten, naming her \"Chi.\"",
+    "tmdbUrl": "https://www.themoviedb.org/tv/34186"
   },
   {
     "id": "peppa-pig-japanese",
@@ -107,7 +132,10 @@
     "category": "Foundations",
     "summary": "Extremely clear family and routine language. Useful, although it is dubbed rather than native-source Japanese.",
     "subtitleEvidence": "unverified",
-    "priority": 9
+    "priority": 9,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iwKVo3HlsyVNXCzFEkd0xHz3kGi.jpg",
+    "synopsis": "Peppa Pig is an energetic piggy who lives with Mummy, Daddy, and little brother George. She loves to jump in mud puddles and make loud snorting noises.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/12225"
   },
   {
     "id": "pokemon-series",
@@ -119,7 +147,10 @@
     "category": "Foundations",
     "summary": "Repetition, travel, food and friendship are useful. Battles add jargon and shouting.",
     "subtitleEvidence": "unverified",
-    "priority": 10
+    "priority": 10,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lP4zwr0F7hWTbAFltfoFTc2AxRG.jpg",
+    "synopsis": "Join Ash accompanied by his partner Pikachu, as he travels through many regions, meets new friends and faces new challenges on his quest to become a Pokémon Master.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/60572"
   },
   {
     "id": "old-enough",
@@ -131,7 +162,10 @@
     "category": "Foundations",
     "summary": "Real child-directed speech, errands and encouragement. Adult narration and regional accents can be fast.",
     "subtitleEvidence": "unverified",
-    "priority": 11
+    "priority": 11,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ovMR6M5qBbXZBA8Waz3RI8kAwAL.jpg",
+    "synopsis": "Children go on errands all by themselves for the very first time as a camera crew follows along in this beloved, long-running reality show from Japan.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/106322"
   },
   {
     "id": "usagi-drop",
@@ -144,7 +178,10 @@
     "summary": "One of the best choices for childcare, meals, work and ordinary emotions. Use the anime, not later manga material.",
     "subtitleEvidence": "english-only",
     "sourceUrl": "https://www.crunchyroll.com/series/G63VK38ZY/usagi-drop",
-    "priority": 12
+    "priority": 12,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx10162-w4SG5oQSQwMn.jpg",
+    "synopsis": "Going home from his grandfather's funeral, thirty-year-old Daikichi is floored to discover that the old man had an illegitimate child with a younger lover. The rest of his family is equally shocked and embarrassed by this surprise development, and not one of them wants anything to do with the silent little girl, Rin Kaga. In a fit of anger, Daikichi decides to take her in himself. As Daikichi nurtures Rin, he started to understand the struggle while at the same time the joy of parenting. (Source: Anime News Network)",
+    "anilistUrl": "https://anilist.co/anime/10162"
   },
   {
     "id": "non-non-biyori",
@@ -157,7 +194,10 @@
     "summary": "Slow pace and repeated family or school situations. Rural dialect needs contextual notes.",
     "subtitleEvidence": "english-only",
     "sourceUrl": "https://www.crunchyroll.com/series/G63VW2VWY/non-non-biyori",
-    "priority": 13
+    "priority": 13,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx17549-ROdV36u4nWkU.png",
+    "synopsis": "When Hotaru moves from Tokyo to a tiny town in the rural countryside, she’s in for some serious culture shock: the nearest place that sells comics is 20 minutes away, the nearest video store is ten train stations down the line, and there are only three other girls and one boy in her entire school! Even though everything’s so different, there’s something about the laid-back atmosphere that makes her feel strangely comfortable. While she’ll certainly miss parts of her old life, there’s a whole lifetime of experiences waiting to be enjoyed with her new friends Renge, Komari, Natsumi, and Suguru! (Source: Sentai Filmworks)",
+    "anilistUrl": "https://anilist.co/anime/17549"
   },
   {
     "id": "flying-witch",
@@ -169,7 +209,10 @@
     "category": "Foundations",
     "summary": "Relaxed domestic, food and local-life speech. Occasional magic vocabulary.",
     "subtitleEvidence": "unverified",
-    "priority": 14
+    "priority": 14,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21284-vQcCLIWt1o5O.png",
+    "synopsis": "Traditionally, when a witch turns 15, she's supposed to go out into the world alone to study magic. Makoto's parents, however, believe that their directionally-challenged daughter should get a high school degree. Instead of being sent out on her own, Makoto and her cat Chito find themselves traveling from the bustling city of Yokohama to Aomori Prefecture, where they'll stay with relatives until Makoto finishes school. It's going to be a big adjustment, and it only gets more complicated since \"normal\" people aren't supposed to know that witches exist… something that she tends to forget. (Source: Sentai Filmworks)",
+    "anilistUrl": "https://anilist.co/anime/21284"
   },
   {
     "id": "tanaka-kun-listless",
@@ -181,7 +224,10 @@
     "category": "Foundations",
     "summary": "Slow delivery and repeated school or friendship language, with deadpan humour.",
     "subtitleEvidence": "unverified",
-    "priority": 15
+    "priority": 15,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21495-I6p0OKzKBFjw.png",
+    "synopsis": "For high school student Tanaka, the act of being listless is a way of life. Known for his inattentiveness and ability to fall asleep anywhere, Tanaka prays that each day will be as uneventful as the last, seeking to preserve his lazy lifestyle however he can by avoiding situations that require him to exert himself. Along with his dependable friend Oota who helps him with tasks he is unable to accomplish, the lethargic teenager constantly deals with events that prevent him from experiencing the quiet and peaceful days he longs for. [Written by MAL Rewrite]",
+    "anilistUrl": "https://anilist.co/anime/21495"
   },
   {
     "id": "sweetness-and-lightning",
@@ -193,7 +239,10 @@
     "category": "Foundations",
     "summary": "Parenting, food, shopping and home conversation. Cooking terms recur predictably.",
     "subtitleEvidence": "unverified",
-    "priority": 16
+    "priority": 16,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx21659-r1nnqXPIcl9D.png",
+    "synopsis": "Having lost his wife, math teacher Kouhei Inuzuka is doing his best to raise his young daughter Tsumugi as a single father. He's pretty bad at cooking and doesn't have a huge appetite to begin with, but chance brings his little family and one of his students, Kotori Iida, together for homemade adventures. With those three cooks in the kitchen, it's no wonder this dinner table drama is so delicious. (Source: Kodansha USA)",
+    "anilistUrl": "https://anilist.co/anime/21659"
   },
   {
     "id": "my-roommate-is-a-cat",
@@ -205,7 +254,10 @@
     "category": "Foundations",
     "summary": "Clear narration with ordinary home and work language. Alternates human and cat viewpoints.",
     "subtitleEvidence": "unverified",
-    "priority": 17
+    "priority": 17,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx103874-kAyuVMwwF5pp.jpg",
+    "synopsis": "Mystery writer Mikazuki Subaru, who isn't good at dealing with people, finds them to be a disturbance when it comes to building his imaginary world. One day, he chances upon a stray cat and feels inspiration strike, so he brings the cat home as his muse. Can watching the inexplicable behaviors of a cat form material for a novel?",
+    "anilistUrl": "https://anilist.co/anime/103874"
   },
   {
     "id": "do-it-yourself",
@@ -217,7 +269,10 @@
     "category": "Foundations",
     "summary": "Friendly school dialogue and practical verbs. Tool vocabulary is specialised but concrete.",
     "subtitleEvidence": "unverified",
-    "priority": 18
+    "priority": 18,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx131516-kLB37ISBeOX0.jpg",
+    "synopsis": "Building furniture and friendships have a lot in common. Intention, effort, and hard work are needed for both crafts. This is a story of girls in a DIY club building both as they carve out their futures. None of it comes easy, but that doesn’t stop any of ’em. Furniture, friendships, and the future—they’re building it all with their own hands! (Source: Crunchyroll)",
+    "anilistUrl": "https://anilist.co/anime/131516"
   },
   {
     "id": "teasing-master-takagi-san",
@@ -229,7 +284,10 @@
     "category": "Foundations",
     "summary": "Repeated school conversation and simple social games. Teasing often relies on implication.",
     "subtitleEvidence": "unverified",
-    "priority": 19
+    "priority": 19,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx99468-XayCplkIL3Gf.png",
+    "synopsis": "Having a friend that knows you inside out should be a good thing, but in Nishikata's case, the opposite is true. His classmate Takagi loves to tease him on a daily basis, and she uses her extensive knowledge of his behavior to predict exactly how he will react to her teasing, making it nearly impossible for Nishikata to ever make a successful comeback. Despite this, Nishikata vows to someday give Takagi a taste of her own medicine by making her blush out of embarrassment from his teasing.",
+    "anilistUrl": "https://anilist.co/anime/99468"
   },
   {
     "id": "is-the-order-a-rabbit",
@@ -242,7 +300,10 @@
     "summary": "Café service, part-time work and friendship. Cutesy styles and group chatter need annotation.",
     "subtitleEvidence": "english-only",
     "sourceUrl": "https://www.crunchyroll.com/series/GR2P1P2KR/is-the-order-a-rabbit",
-    "priority": 20
+    "priority": 20,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx20517-SNNUtav2knou.jpg",
+    "synopsis": "Coming to a new town to start high school can be intimidating, and that's especially true for Cocoa, who can't find the place she's supposed to be staying when she arrives. When she stops at a cafe to ask for directions, however, it turns out that she's already where she needs to be! You see, the Rabbit House is both a restaurant and a boarding house, and Cocoa will be working there along with the owner's granddaughter, Chino and the strangely military-obsessed Rize. It's a great place to work, business is hopping, and Cocoa's fits right in with her new coworkers, as well as the girls from two other rival cafes. Still, there is something just a little odd about the Rabbit House. Besides the fact that Rize usually carries a Glock and a knife hidden on her, there's also a mystery involving the shop's pet rabbit, Tippy. And then there are those girls who sometimes seem to be able to communicate without talking… (Source: Sentai Filmworks)",
+    "anilistUrl": "https://anilist.co/anime/20517"
   },
   {
     "id": "shirokuma-cafe",
@@ -254,7 +315,10 @@
     "category": "Foundations",
     "summary": "Food, work and daily conversation in a recurring setting. Puns particularly benefit from phrase-level annotation.",
     "subtitleEvidence": "unverified",
-    "priority": 21
+    "priority": 21,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/12815.jpg",
+    "synopsis": "Shirokuma Cafe revolves around a Canadian white bear that quits his boring job and starts a cafeteria near a zoo. He loves telling tall tales and always brags about himself. According to him, he was picked up by a human couple who owns a diner while he was drifting around on an iceberg. Though he has lost all contact with his Canadian family, he has discovered a new home in serving the diners' clientele, thanks to the kind couple. His caf&eacute; is an embodiment of his personality. The place is always packed with many regulars, animals and humans, who are drawn by his charismatic magnetism. (Source: Crunchyroll)",
+    "anilistUrl": "https://anilist.co/anime/12815"
   },
   {
     "id": "k-on",
@@ -266,7 +330,10 @@
     "category": "Foundations",
     "summary": "Club, food and friendship vocabulary. Overlapping chatter can be fast.",
     "subtitleEvidence": "unverified",
-    "priority": 22
+    "priority": 22,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx5680-r3AI3Cwfv0Aq.png",
+    "synopsis": "Hirasawa Yui, a young, carefree girl entering high school, has her imagination instantly captured when she sees a poster advertising the ‘Light Music Club’. Being the carefree girl that she is, she quickly signs up. However, Yui has a problem, she is unable to play an instrument. When Yui goes to the clubroom to explain, she's greeted by the other members: Ritsu, Mio and Tsumugi. Although disheartened at Yui’s lack of musical know-how, they still try to convince her to stay to prevent the club’s disbandment. After playing Yui a short piece which re-ignites her imagination, they succeed in keeping their new member and guitarist. Along with the tasks of school and homework, Yui begins to learn the guitar with the help of the other band members, experiencing many mishaps along the way. However, with the school-festival drawing near and Yui getting stuck with her practice, will the Light Music Club be ready in time for their debut? (Source: MAL Rewrite)",
+    "anilistUrl": "https://anilist.co/anime/5680"
   },
   {
     "id": "yuru-camp",
@@ -278,7 +345,10 @@
     "category": "Foundations",
     "summary": "Plans, weather, travel and food. Camping equipment creates a contained specialist domain.",
     "subtitleEvidence": "unverified",
-    "priority": 23
+    "priority": 23,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx98444-Vzysp1EsrzgD.jpg",
+    "synopsis": "Rin likes to go camping by herself along the lakes that provide a scenic view of Mt. Fuji. Nadeshiko loves to take cycling trips by herself to places where she can see Mt. Fuji. After they meet, Rin and Nadeshiko take camping trips, eat cup ramen together, and enjoy the scenery. (Source: Anime News Network)",
+    "anilistUrl": "https://anilist.co/anime/98444"
   },
   {
     "id": "natsumes-book-of-friends",
@@ -291,7 +361,10 @@
     "summary": "Calm narration, school and polite conversation. Yokai and literary vocabulary raise difficulty.",
     "subtitleEvidence": "english-only",
     "sourceUrl": "https://www.crunchyroll.com/series/GRE5XQJV6/natsumes-book-of-friends",
-    "priority": 24
+    "priority": 24,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6iIoK9LEM92hBEZD3aVQVCWeaRC.jpg",
+    "synopsis": "Natsume Takashi has the ability to see spirits, which he has long kept secret. However, once he inherits a strange book that belonged to his deceased grandmother, Reiko, he discovers the reason why spirits surround him.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/69500"
   },
   {
     "id": "silver-spoon",
@@ -303,7 +376,10 @@
     "category": "Foundations",
     "summary": "School, food and work language. Farming terminology is concrete and repetitive.",
     "subtitleEvidence": "unverified",
-    "priority": 25
+    "priority": 25,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4HiHpVy0OVk5nFl28pjU8gBDA7A.jpg",
+    "synopsis": "Yuugo Hachiken enrolled in Ooezo Agricultural High School for the reason that he could live in a dorm there. In some ways he chose Ooezo in an effort to escape the highly competitive prep schools he had attended previously, but he was faced with an entirely new set of difficulties at Oezo, surrounded by animals and Mother Nature. After growing up in an average family, he began to encounter clubs and training the likes of which he had never seen before.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/58237"
   },
   {
     "id": "little-witch-academia",
@@ -315,7 +391,10 @@
     "category": "Foundations",
     "summary": "Friendship and school routines mixed with magic terms and energetic shouting.",
     "subtitleEvidence": "unverified",
-    "priority": 26
+    "priority": 26,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/93Lz0LwbScZ5bmuqoIngLv1LKNb.jpg",
+    "synopsis": "When she was a little girl, Atsuko \"Akko\" Kagari saw a magic show performed by a witch named Shiny Chariot. From that day on she wanted to be just like her. Enrolling at Luna Nova Magical Academy and having no magical background, can she become a witch like her idol Shiny Chariot?",
+    "tmdbUrl": "https://www.themoviedb.org/tv/69293"
   },
   {
     "id": "kotaro-lives-alone",
@@ -327,7 +406,10 @@
     "category": "Foundations",
     "summary": "Shopping, neighbours and daily routines. Kotaro deliberately speaks in unusually formal, old-fashioned Japanese.",
     "subtitleEvidence": "unverified",
-    "priority": 27
+    "priority": 27,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8v2CVrPNC1pO0osxbia4FopGtLe.jpg",
+    "synopsis": "A lonely little boy moves into a ramshackle apartment building all on his own and makes friends with the broke manga artist who lives next door.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/134581"
   },
   {
     "id": "barakamon",
@@ -339,7 +421,10 @@
     "category": "Foundations",
     "summary": "Excellent adult-child and community interaction. Strong Nagasaki dialect is a deliberate challenge.",
     "subtitleEvidence": "unverified",
-    "priority": 28
+    "priority": 28,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/5biiZSKFkIFRxv6Ny6H6XwzyuKE.jpg",
+    "synopsis": "After punching a famous curator in the face for criticizing his work as \"textbook and lifeless,\" Handa Seishuu is sent to Gotō Island to calm his nerves and find new inspiration for his calligraphy. Growing up in the city all his life, though, Handa must adapt to country life while meeting an assortment of quirky people during his tenure.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/67048"
   },
   {
     "id": "kakushigoto",
@@ -351,7 +436,10 @@
     "category": "Foundations",
     "summary": "Parent-child, home and workplace language. Wordplay raises the difficulty.",
     "subtitleEvidence": "unverified",
-    "priority": 29
+    "priority": 29,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/z0gc6bE8tOEzt8ZWkoBh4fOfONa.jpg",
+    "synopsis": "Single father Kakushi Goto has a secret. He’s a top-selling artist of popular erotic manga, but his impressionable young daughter, Hime, can never find out! Now he’s having to bend over backwards just to keep her inquisitive little mind from discovering what he does for a living.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/95433"
   },
   {
     "id": "nichijou",
@@ -364,7 +452,10 @@
     "summary": "Familiar school phrases inside absurd situations. Fast shouting and wordplay need a good pack.",
     "subtitleEvidence": "english-only",
     "sourceUrl": "https://www.crunchyroll.com/series/GR24PVM76/nichijou---my-ordinary-life",
-    "priority": 30
+    "priority": 30,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tseISx2XcDj1fqqqlBq58yOKmpm.jpg",
+    "synopsis": "Follow the adventures of three ordinary girls as they make life’s awkward moments a thousand times worse. Along with a colorful bunch of classmates, they learn their most important lessons the hard way. Meanwhile down the street, a pocket-sized professor makes life difficult for a robot who just wants to be normal. But normal is the last thing you can expect in a town where salmon falls from the sky. In fact, the only thing you can count on is your friends, but even they are totally weird.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/44684"
   },
   {
     "id": "daily-lives-high-school-boys",
@@ -377,7 +468,10 @@
     "summary": "Useful casual male speech and school language. Slang and fast banter.",
     "subtitleEvidence": "english-only",
     "sourceUrl": "https://www.crunchyroll.com/series/G6X0K0N7Y/daily-lives-of-high-school-boys",
-    "priority": 31
+    "priority": 31,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/AhNuEIObse9eQWW2vFGgB5sI6MZ.jpg",
+    "synopsis": "Join Tadakuni, Hidenori and Yoshitake as they undergo the trials and tribulations of life in high school. Each episode presents the boys and their classmates in unique situations that you may or may not have faced in high school yourself.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/45859"
   },
   {
     "id": "words-bubble-up",
@@ -390,7 +484,10 @@
     "summary": "Everyday teen speech plus haiku, ideal for testing overlapping phrase explanations.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://www.netflix.com/title/81400497",
-    "priority": 32
+    "priority": 32,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ooISQS2rzVqgkt2aq5HNoz8n2sa.jpg",
+    "synopsis": "After meeting one day, a shy boy who expresses himself through haiku and a bubbly but self-conscious girl share a brief, magical summer.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/579741"
   },
   {
     "id": "a-whisker-away",
@@ -403,7 +500,10 @@
     "summary": "Family and school speech with emotional vocabulary. Fantasy scenes add complexity.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://www.netflix.com/title/81281872",
-    "priority": 33
+    "priority": 33,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/6inkRM1XGBG5vRhclCPWfMenp7N.jpg",
+    "synopsis": "A peculiar girl transforms into a cat to catch her crush's attention. But before she realizes it, the line between human and animal starts to blur.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/667520"
   },
   {
     "id": "drifting-home",
@@ -416,7 +516,10 @@
     "summary": "Child and friendship speech. Survival and emotional scenes are faster.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://www.netflix.com/title/81328781",
-    "priority": 34
+    "priority": 34,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iNf1wC8cK6e8zgNyuMUqWFT7Din.jpg",
+    "synopsis": "One fateful summer, a group of elementary school kids set adrift on an abandoned apartment building must look within themselves to find a way back home.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/877957"
   },
   {
     "id": "my-neighbour-totoro",
@@ -428,7 +531,10 @@
     "category": "Foundations",
     "summary": "Concrete family, home and countryside language with relatively little dialogue.",
     "subtitleEvidence": "unverified",
-    "priority": 35
+    "priority": 35,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg",
+    "synopsis": "Two sisters move to the country with their father in order to be closer to their hospitalized mother, and discover the surrounding trees are inhabited by Totoros, magical spirits of the forest. When the youngest runs away from home, the older sister seeks help from the spirits to find her.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/8392"
   },
   {
     "id": "kikis-delivery-service",
@@ -440,7 +546,10 @@
     "category": "Foundations",
     "summary": "Work, errands, introductions and independence, plus a contained amount of fantasy vocabulary.",
     "subtitleEvidence": "unverified",
-    "priority": 36
+    "priority": 36,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/Aufa4YdZIv4AXpR9rznwVA5SEfd.jpg",
+    "synopsis": "A young witch, on her mandatory year of independent life, finds fitting into a new community difficult while she supports herself by running an air courier service.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/16859"
   },
   {
     "id": "ponyo",
@@ -452,7 +561,10 @@
     "category": "Foundations",
     "summary": "Clear child and family speech with strong visual context. Fantasy vocabulary is the main complication.",
     "subtitleEvidence": "unverified",
-    "priority": 37
+    "priority": 37,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yp8vEZflGynlEylxEesbYasc06i.jpg",
+    "synopsis": "When Sosuke, a young boy who lives on a clifftop overlooking the sea, rescues a stranded goldfish named Ponyo, he discovers more than he bargained for. Ponyo is a curious, energetic young creature who yearns to be human, but even as she causes chaos around the house, her father, a powerful sorcerer, schemes to return Ponyo to the sea.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/12429"
   },
   {
     "id": "whisper-of-the-heart",
@@ -464,7 +576,10 @@
     "category": "Foundations",
     "summary": "School, family and creative ambitions with natural teen exchanges.",
     "subtitleEvidence": "unverified",
-    "priority": 38
+    "priority": 38,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/nx585-5uq7j2xNNVmN.jpg",
+    "synopsis": "During summer vacation, a schoolgirl named Shizuku, who longs to discover her true talents, observes an ordinary-looking cat riding by himself on the train. Intrigued, she decides to follow him. This chance encounter leads her to the mysterious Seiji, a boy who is determined to follow his dreams, and The Baron, a magical cat figurine who helps her listen to the whispers in her heart. Soon, Shizuku's exciting adventures carry her far beyond the boundaries of her imagination. (Source: Disney)",
+    "anilistUrl": "https://anilist.co/anime/585"
   },
   {
     "id": "arrietty",
@@ -476,7 +591,10 @@
     "category": "Foundations",
     "summary": "Home and family language delivered clearly. Miniature-world vocabulary is concrete.",
     "subtitleEvidence": "unverified",
-    "priority": 39
+    "priority": 39,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3lSRaSjDp2nkXMQkzzjpRi3035O.jpg",
+    "synopsis": "14-year-old Arrietty and the rest of the Clock family live in peaceful anonymity as they make their own home from items \"borrowed\" from the house's human inhabitants. However, life changes for the Clocks when a human boy discovers Arrietty.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/51739"
   },
   {
     "id": "stand-by-me-doraemon",
@@ -488,7 +606,10 @@
     "category": "Foundations",
     "summary": "Familiar Doraemon language and a self-contained emotional story.",
     "subtitleEvidence": "unverified",
-    "priority": 40
+    "priority": 40,
+    "posterUrl": "https://s4.anilist.co/file/anilistcdn/media/anime/cover/medium/20515.jpg",
+    "synopsis": "The robotic cat was sent by a boy in the future to the present day to help the boy's hapless grandfather, Nobita. Doraemon, Nobita, and other children deal with everyday childhood issues, solve (and cause) problems with the gadgets in Doraemon's fourth-dimensional pocket, and embark on escapades through time and space.",
+    "anilistUrl": "https://anilist.co/anime/20515"
   },
   {
     "id": "midnight-diner-tokyo-stories",
@@ -501,7 +622,10 @@
     "summary": "Short stories, food, work and relationships in one recurring setting. Adult themes and occasional dialect.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://www.netflix.com/title/80113541",
-    "priority": 41
+    "priority": 41,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ww6hnnEnV6qM0LWkopDE7rMKAYr.jpg",
+    "synopsis": "In an otherwise mundane diner open from midnight to 7 a.m., there is no menu – but the chef cooks anything his customers want. Each episode is about different a different customer, as they find simple yet profound connections with one another based on their shared love of a particular dish.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/92408"
   },
   {
     "id": "the-makanai",
@@ -513,7 +637,10 @@
     "category": "Everyday",
     "summary": "Gentle cooking and household language. Kyoto dialect and maiko terminology.",
     "subtitleEvidence": "unverified",
-    "priority": 42
+    "priority": 42,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ynV4fQ9GOsGsOtFfxaRkjpiAFLt.jpg",
+    "synopsis": "Two inseparable friends move to Kyoto to chase their dreams of becoming maiko, but decide to pursue different passions while living under the same roof.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/154916"
   },
   {
     "id": "perfect-days",
@@ -525,7 +652,10 @@
     "category": "Everyday",
     "summary": "Sparse dialogue and polite routine exchanges. Low input volume but an excellent confidence-builder.",
     "subtitleEvidence": "unverified",
-    "priority": 43
+    "priority": 43,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tvUHVSTJV9ITON3oyHaWp7oaAc8.jpg",
+    "synopsis": "Hirayama is content with his life as a toilet cleaner in Tokyo. Outside of his structured routine, he cherishes music on cassette tapes, books, and taking photos of trees. Through unexpected encounters, he reflects on finding beauty in the world.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/976893"
   },
   {
     "id": "call-me-chihiro",
@@ -538,7 +668,10 @@
     "summary": "Natural, indirect adult conversation and everyday settings.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://www.netflix.com/title/81486812",
-    "priority": 44
+    "priority": 44,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/51PoruM9YZ4meE0SzDZaNjciKBW.jpg",
+    "synopsis": "An unapologetic former sex worker starts working at a bento stand in a small seaside town, bringing comfort to the lonely souls who come her way.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/1024621"
   },
   {
     "id": "first-love",
@@ -551,7 +684,10 @@
     "summary": "Modern family, work and relationship language. Emotional ellipsis and timeline shifts.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://www.netflix.com/title/81222255",
-    "priority": 45
+    "priority": 45,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yYCefcDMt5A5OJe8Q6iiU866Oxr.jpg",
+    "synopsis": "Young, free and madly in love. As teenagers, the world was their oyster—but, as adults, their lives seem dimmer, like a very important piece is missing.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/210955"
   },
   {
     "id": "our-little-sister",
@@ -563,7 +699,10 @@
     "category": "Everyday",
     "summary": "Family meals, school and home life with natural interruptions.",
     "subtitleEvidence": "unverified",
-    "priority": 46
+    "priority": 46,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/x9A0AtEg5EEYbDGfP8NqH3C9w8M.jpg",
+    "synopsis": "After the death of their estranged father, 3 adult sisters invite their teenaged half-sister to live with them.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/315846"
   },
   {
     "id": "still-walking",
@@ -575,7 +714,10 @@
     "category": "Everyday",
     "summary": "Superb natural family conversation, including older speakers and implied meaning.",
     "subtitleEvidence": "unverified",
-    "priority": 47
+    "priority": 47,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/FWJbhAPdwiwKhUaAyz841jpYa1.jpg",
+    "synopsis": "A family gathers together for a commemorative ritual whose nature only gradually becomes clear.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/25050"
   },
   {
     "id": "from-me-to-you-live-action",
@@ -587,7 +729,10 @@
     "category": "Everyday",
     "summary": "School, friendship and the contrast between polite and casual speech.",
     "subtitleEvidence": "unverified",
-    "priority": 48
+    "priority": 48,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/mJAoN9zQmMqZc6NdY4CPhEylp5y.jpg",
+    "synopsis": "With her gloomy demeanor, Sawako has a hard time fitting in. But when an outgoing classmate approaches her, life takes a turn for the better.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/209648"
   },
   {
     "id": "full-time-wife-escapist",
@@ -599,7 +744,10 @@
     "category": "Everyday",
     "summary": "Home, work and relationships. Contracts, keigo and rapid dialogue increase difficulty.",
     "subtitleEvidence": "unverified",
-    "priority": 49
+    "priority": 49,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/28lfvAfvYoDoFDXkPS49RWhDTJo.jpg",
+    "synopsis": "A series of events leads single, 25-year-old Mikuri Moriyama and 36-year-old Hiramasa Tsuzaki to marry as a cover.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/68293"
   },
   {
     "id": "what-did-you-eat-yesterday",
@@ -611,7 +759,10 @@
     "category": "Everyday",
     "summary": "Cooking, shopping, work and adult partnership language. Legal and culinary terms recur.",
     "subtitleEvidence": "unverified",
-    "priority": 50
+    "priority": 50,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/gtwr94gRDeHEWv1L6SnUBecHpOh.jpg",
+    "synopsis": "Lawyer Shiro pours his heart into home-cooked meals for his partner, hairstylist Kenji, as they navigate life as a middle-aged gay couple in Tokyo.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/89613"
   },
   {
     "id": "kindaichi-2022",
@@ -624,7 +775,10 @@
     "summary": "Young cast, recurring detective and mentor, with murder cases usually spanning one or two episodes.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://tv.apple.com/do/show/the-files-of-young-kindaichi/umc.cmc.5tj28hjc6c78a96o7rnox4vsw?l=en",
-    "priority": 51
+    "priority": 51,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bFTzFjKNAMddnYiLtb3teDmb7ba.jpg",
+    "synopsis": "Kindaichi Hajime is a high school student and a private detective with an IQ of 180. He solves murder cases that are riddled with difficult clues. Kindaichi Hajime works with his childhood friend Nanase Miyuki and Kenmochi Isamu. Kenmochi Isamu is now the chief inspector of the Tokyo Metropolitan Police Department.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/194852"
   },
   {
     "id": "unnatural",
@@ -637,7 +791,10 @@
     "summary": "The best first serious procedural. Excellent team chemistry with recurring medical and legal vocabulary.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://tv.apple.com/us/show/unnatural/umc.cmc.1uhpkfzrkcbvwrjw8lsn4vykb",
-    "priority": 52
+    "priority": 52,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9dtVQyYAqnNOrCV0kodFELuUPdY.jpg",
+    "synopsis": "Mikoto, a forensic investigative examiner, and her partners trace down the evidence of crimes and unravel the puzzles behind mysterious deaths.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/75701"
   },
   {
     "id": "kyoko-okitegami",
@@ -649,7 +806,10 @@
     "category": "Crime",
     "summary": "A forgetful detective must solve each case in one day. Clean workplace and polite registers.",
     "subtitleEvidence": "english-only",
-    "priority": 53
+    "priority": 53,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/rOj46mSu8INFfjAzYqhNQ8trThu.jpg",
+    "synopsis": "Okitegami Kyoko is a beautiful private detective who has a deep love for money. She is also known as the Forgetful Detective. Her memory is reset when she sleeps at night, which means she can strictly adhere to confidentiality requirements. She solves all her cases within a day, whatever they may be. She is the world's fastest detective! There is something really important that Kyoko must never forget, and it is written on her body with a magic pen.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/69407"
   },
   {
     "id": "miu404",
@@ -661,7 +821,10 @@
     "category": "Crime",
     "summary": "Fast buddy-police chemistry and modern issues. Rapid colloquial police language.",
     "subtitleEvidence": "unverified",
-    "priority": 54
+    "priority": 54,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/xOdguozUF1UGtpT4j9BJ1zSR6ZX.jpg",
+    "synopsis": "The Mobile Investigative Unit (known as \"MIU\") of the Tokyo Metropolitan Police Department attempts to solve cases within 24 hours. Detective Kazumi Shima is selected as a new member of MIU. He is intelligent, with excellent observation and communication skills. Yet, he does not trust other people. He is unable to find a partner in MIU and is ordered to partner with Police Officer Ai Ibuki, who works at a police substation. Ibuki applied for MIU, but he failed. He is in excellent physical condition, but he lacks knowledge and experience as a detective. Shima learns about Ibuki's background and he becomes more nervous. Finally, Shima has his first meeting with Ibuki.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/106524"
   },
   {
     "id": "galileo",
@@ -673,7 +836,10 @@
     "category": "Crime",
     "summary": "Physicist and detective partnership with a satisfying case formula. Scientific vocabulary recurs.",
     "subtitleEvidence": "unverified",
-    "priority": 55
+    "priority": 55,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/9SyqfKLZsChuL0nlClqihK9yMFI.jpg",
+    "synopsis": "Narrates the events and cases encountered by Kaoru Utsumi, a rookie detective, and Manabu Yukawa, a university associate professor, while the two pair up to solve many mysterious cases.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/6964"
   },
   {
     "id": "aibou",
@@ -685,7 +851,10 @@
     "category": "Crime",
     "summary": "Probably the closest durable Japanese equivalent to a mainstream network procedural.",
     "subtitleEvidence": "unverified",
-    "priority": 56
+    "priority": 56,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/8u8rCCeuBufMQ1VlGX0lruhDaPR.jpg",
+    "synopsis": "Detective Ukyo Sugishita confronts crime on the basis of his own convictions. He has a partner that works for him in the Special Task Unit. For the first 7 seasons, Ukyo’s first partner is Kaoru Kameyama. He is a good-natured, hot-tempered, straightforward and somewhat scattered detective. Beginning in Season 8, Takeru Kanbe replaces Kameyama. Contrary to his predecessor, Takeru is a lanky, cool, conceited and confident detective. From Season 11 to Season 13, Ukyo’s partner is a young detective Toru Kai. Toru is a son of Deputy Director-General of The National Police Agency. But he became a detective by his own effort. And starting with Season 14, Ukyo’s current partner is Wataru Kaburagi, an elite bureaucrat who came to the Metropolitan Police Department on temporary assignment. As the first partner without any career of a police officer, he will face challenging cases together with Ukyo.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/40663"
   },
   {
     "id": "kasoken-no-onna",
@@ -697,7 +866,10 @@
     "category": "Crime",
     "summary": "Strong CSI analogue with a stable laboratory team. Specialist vocabulary repeats usefully.",
     "subtitleEvidence": "unverified",
-    "priority": 57
+    "priority": 57,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/3yhUPZ5ojuxktyt2dfA0SLMOBEv.jpg",
+    "synopsis": "Mariko is a forensic scientist working at the Kyoto PD Crime Lab. Her credo is “science never lies” and she delves into the truth of the case with her colleagues with their specialized skills and knowledge in forensic medicine, physics, chemistry etc. Mariko’s steadfast belief in science makes her stand against conventional institutional ethics of the police department, diehard detectives averse to scientific investigation and sometimes even with her own colleagues, but she stays faithful to her belief in science and continues to pursue the truth.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/55891"
   },
   {
     "id": "boss",
@@ -709,7 +881,10 @@
     "category": "Crime",
     "summary": "The closest option to Criminal Minds in ensemble tone. Fast banter and police jargon.",
     "subtitleEvidence": "unverified",
-    "priority": 58
+    "priority": 58,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/qHW1WbLBKITZyImBhnp9Z3GPxk6.jpg",
+    "synopsis": "Osawa Eriko is a beautiful career woman who has just returned from training in the U.S. and is appointed as the \"boss\" of this division. But despite her intelligence and capabilities, she can never understand a man's heart, so she remains unable to find a husband.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/45884"
   },
   {
     "id": "furuhata-ninzaburo",
@@ -721,7 +896,10 @@
     "category": "Crime",
     "summary": "Japan's great Columbo-style series. Dialogue, formality and wordplay are demanding.",
     "subtitleEvidence": "unverified",
-    "priority": 59
+    "priority": 59,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/ggMfbcjCqf0lKHOfOb8Rygr4bwB.jpg",
+    "synopsis": "Furuhata Ninzaburō is a Japanese television series that ran periodically on Fuji Television from 1994 until its final episodes in 2006. It was written by Japanese playwright Kōki Mitani and is often referred to as the Japanese version of Columbo.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/9573"
   },
   {
     "id": "last-man",
@@ -733,7 +911,10 @@
     "category": "Crime",
     "summary": "High-concept investigator pairing and weekly cases. Fast professional dialogue.",
     "subtitleEvidence": "unverified",
-    "priority": 60
+    "priority": 60,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/4cZWM8ReKgRYIHxfBcFLqwomM4x.jpg",
+    "synopsis": "Minami Hiromi is an FBI agent visiting Japan from the US for a limited time. Minami lost his sight due to an accident in the past and he is called the \"last man\" in the FBI, referring him as the last trump card to end a case with his strong sense of analysis, smell, and touch. Godo Shintaro has been assigned to attend to Minami. From a family that has served as the Commissioner of the National Police Agency for generations, Godo has an extraordinary sense of justice and is willing to go any lengths to catch the criminals. Minami, who is always ready to ask for help, and Godo, who has never trusted anyone except himself, become a duo and work together to solve cases.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/221854"
   },
   {
     "id": "tokyo-swindlers",
@@ -745,7 +926,10 @@
     "category": "Prestige",
     "summary": "The closest Japanese recommendation to Breaking Bad. Property, fraud and underworld vocabulary.",
     "subtitleEvidence": "unverified",
-    "priority": 61
+    "priority": 61,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/892R0peQpBJP6VnAiQWtAGxRUr.jpg",
+    "synopsis": "A team of swindlers gets wind of prime real estate worth 10 billion yen and will stop at nothing to pull off their most ambitious scam yet.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/249906"
   },
   {
     "id": "gannibal",
@@ -757,7 +941,10 @@
     "category": "Prestige",
     "summary": "Exceptional rural crime-horror production. Regional speech and violent subject matter.",
     "subtitleEvidence": "unverified",
-    "priority": 62
+    "priority": 62,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/AvjCytHUq6AN6rYOFQFATrWbGSR.jpg",
+    "synopsis": "After causing a major incident, police officer Daigo Agawa takes his wife and daughter to live in the remote mountain village of Kuge. It seems the perfect place to recover from the ordeal, despite the mysterious disappearance of a previous officer posted there. One day, the body of an old woman is found on the mountain. The Goto family says she was attacked by a bear, but Daigo notices a human bite mark. It soon becomes clear that not all is as it seems in the village.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/210213"
   },
   {
     "id": "sanctuary",
@@ -769,7 +956,10 @@
     "category": "Prestige",
     "summary": "Strong character drama and physical storytelling. Sumo jargon, rough slang and dialect.",
     "subtitleEvidence": "unverified",
-    "priority": 63
+    "priority": 63,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/fnr87DcGxKB02vcuZlLgxX8tHPs.jpg",
+    "synopsis": "A tough, desperate kid becomes a sumo wrestler, captivating fans with his cocky attitude — and upsetting an industry steeped in tradition.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/210269"
   },
   {
     "id": "alice-in-borderland",
@@ -781,7 +971,10 @@
     "category": "Prestige",
     "summary": "Large-scale, highly motivating spectacle. Youth slang, shouting and game rules increase difficulty.",
     "subtitleEvidence": "unverified",
-    "priority": 64
+    "priority": 64,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/Ac8ruycRXzgcsndTZFK6ouGA0FA.jpg",
+    "synopsis": "With his two friends, a video-game-obsessed young man finds himself in a strange version of Tokyo where they must compete in dangerous games to win.",
+    "tmdbUrl": "https://www.themoviedb.org/tv/110316"
   },
   {
     "id": "asakusa-kid",
@@ -794,7 +987,10 @@
     "summary": "Strong Tokyo cultural history and performance-world language, including 1970s slang.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://www.netflix.com/title/81317135",
-    "priority": 65
+    "priority": 65,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/iG0gHSFsQzxh57UJdCHXoQXFjB3.jpg",
+    "synopsis": "Before he hit it big, Takeshi Kitano got his start apprenticing with comedy legend Fukami of Asakusa. But as his star rises, his mentor's declines.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/768147"
   },
   {
     "id": "godzilla-minus-one",
@@ -806,7 +1002,10 @@
     "category": "Prestige",
     "summary": "High-budget spectacle with strong drama. Wartime, military and formal speech.",
     "subtitleEvidence": "unverified",
-    "priority": 66
+    "priority": 66,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/2E2WTX0TJEflAged6kzErwqX1kt.jpg",
+    "synopsis": "In postwar Japan, Godzilla brings new devastation to an already scorched landscape. With no military intervention or government help in sight, the survivors must join together in the face of despair and fight back against an unrelenting horror.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/940721-1-0"
   },
   {
     "id": "drive-my-car",
@@ -818,7 +1017,10 @@
     "category": "Prestige",
     "summary": "Major contemporary film with rich literary and theatrical language, plus multilingual passages.",
     "subtitleEvidence": "unverified",
-    "priority": 67
+    "priority": 67,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/a2lxHS6Au35k5XtFQEQW44yWHeH.jpg",
+    "synopsis": "Yusuke Kafuku, a stage actor and director, still unable, after two years, to cope with the loss of his beloved wife, accepts to direct Uncle Vanya at a theater festival in Hiroshima. There he meets Misaki, an introverted young woman, appointed to drive his car. In between rides, secrets from the past and heartfelt confessions will be unveiled.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/758866"
   },
   {
     "id": "seven-samurai",
@@ -831,7 +1033,10 @@
     "summary": "Foundational, gripping and visually clear despite archaic samurai and farmer speech.",
     "subtitleEvidence": "english-only",
     "sourceUrl": "https://www.criterion.com/films/165-seven-samurai",
-    "priority": 68
+    "priority": 68,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/lOMGc8bnSwQhS4XyE1S99uH8NXf.jpg",
+    "synopsis": "A samurai answers a village's request for protection after he falls on hard times. The town needs protection from bandits, so the samurai gathers six others to help him teach the people how to defend themselves, and the villagers provide the soldiers with food.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/346"
   },
   {
     "id": "yojimbo",
@@ -843,7 +1048,10 @@
     "category": "Period",
     "summary": "Terse, funny samurai noir with memorable situations and register play.",
     "subtitleEvidence": "english-only",
-    "priority": 69
+    "priority": 69,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/tN7kYPjRhDolpui9sc9Eq9n5b2O.jpg",
+    "synopsis": "A nameless ronin, or samurai with no master, enters a small village in feudal Japan where two rival businessmen are struggling for control of the local gambling trade. Taking the name Sanjuro Kuwabatake, the ronin convinces both silk merchant Tazaemon and sake merchant Tokuemon to hire him as a personal bodyguard, then artfully sets in motion a full-scale gang war between the two ambitious and unscrupulous men.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/11878"
   },
   {
     "id": "harakiri",
@@ -856,7 +1064,10 @@
     "summary": "A great moral critique of the samurai system, with formal clan speech and long monologues.",
     "subtitleEvidence": "english-only",
     "sourceUrl": "https://www.criterion.com/films/743-harakiri",
-    "priority": 70
+    "priority": 70,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/zK7HsOC7QxW1ldKIeFG8YJ5F2Eb.jpg",
+    "synopsis": "Down-on-his-luck veteran Tsugumo Hanshirō enters the courtyard of the prosperous House of Iyi. Unemployed, and with no family, he hopes to find a place to commit seppuku—and a worthy second to deliver the coup de grâce in his suicide ritual. The senior counselor for the Iyi clan questions the ronin’s resolve and integrity, suspecting Hanshirō of seeking charity rather than an honorable end. What follows is a pair of interlocking stories which lay bare the difference between honor and respect, and promises to examine the legendary foundations of the Samurai code.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/14537"
   },
   {
     "id": "ran",
@@ -868,7 +1079,10 @@
     "category": "Period",
     "summary": "Kurosawa's large-scale war tragedy. Court language and sparse, highly stylised dialogue.",
     "subtitleEvidence": "english-only",
-    "priority": 71
+    "priority": 71,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/dGgiXMWDcS5aJTBEFu7bmaQPNox.jpg",
+    "synopsis": "Shakespeare's King Lear is reimagined as a singular historical epic set in sixteenth-century Japan where an aging warlord divides his kingdom between his three sons.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/11645"
   },
   {
     "id": "twilight-samurai",
@@ -880,7 +1094,10 @@
     "category": "Period",
     "summary": "Humane domestic jidaigeki that makes class and family life central.",
     "subtitleEvidence": "unverified",
-    "priority": 72
+    "priority": 72,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/bB2M8UF8wc9flfGWkcgkTTf8Mzr.jpg",
+    "synopsis": "Seibei Iguchi leads a difficult life as a low ranking samurai at the turn of the nineteenth century. A widower with a meager income, Seibei struggles to take care of his two daughters and senile mother. New prospects seem to open up when the beautiful Tomoe, a childhood friend, comes back into he and his daughters' life, but as the Japanese feudal system unravels, Seibei is still bound by the code of honor of the samurai and by his own sense of social precedence. How can he find a way to do what is best for those he loves?",
+    "tmdbUrl": "https://www.themoviedb.org/movie/12496"
   },
   {
     "id": "thirteen-assassins",
@@ -892,7 +1109,10 @@
     "category": "Period",
     "summary": "Excellent modern gateway to chanbara spectacle. Edo bureaucracy and battle commands.",
     "subtitleEvidence": "unverified",
-    "priority": 73
+    "priority": 73,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/yUsVsiVXUwClk4vSCx80vrdO6MV.jpg",
+    "synopsis": "A bravado period action film set at the end of Japan's feudal era in which a group of unemployed samurai are enlisted to bring down a sadistic lord and prevent him from ascending to the throne and plunging the country into a war-torn future.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/58857"
   },
   {
     "id": "rurouni-kenshin-films",
@@ -905,7 +1125,10 @@
     "summary": "The most accessible high-energy gateway to Bakumatsu material. Period pronouns and stylised politeness.",
     "subtitleEvidence": "verified",
     "sourceUrl": "https://www.netflix.com/gb/title/70293105",
-    "priority": 74
+    "priority": 74,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/vo3Zs07PZfKNsTrU0pcPZONJcN5.jpg",
+    "synopsis": "In 1868, after the Bakumatsu war ends, the ex-assassin Kenshin Himura traverses Japan with an inverted sword, to defend the needy without killing.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/127533"
   },
   {
     "id": "kubi",
@@ -917,6 +1140,9 @@
     "category": "Period",
     "summary": "Kitano's dark Sengoku political satire. Dense names, titles and historical register.",
     "subtitleEvidence": "unverified",
-    "priority": 75
+    "priority": 75,
+    "posterUrl": "https://image.tmdb.org/t/p/w500/DG3B7D0cLx3gmoySAwHVZ6QPeb.jpg",
+    "synopsis": "Lord Oda Nobunaga plans to control Japan where rival warlords battle by waging war against several clans. His vassal Araki Murashige stages a rebellion and promptly disappears.",
+    "tmdbUrl": "https://www.themoviedb.org/movie/795087"
   }
 ]

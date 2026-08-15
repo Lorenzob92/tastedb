@@ -2,24 +2,19 @@
 
 import { useEffect, useMemo, useState } from "react";
 import { ExternalLink, Search } from "lucide-react";
+import Image from "next/image";
+import Link from "next/link";
 import {
   JAPANESE_CATEGORIES,
   JAPANESE_LEVEL_ORDER,
+  JAPANESE_PROGRESS_OPTIONS,
+  JAPANESE_PROGRESS_STORAGE_KEY,
   japaneseLearningTitles,
   type JapaneseCategory,
   type JapaneseLevel,
   type LearningProgress,
   type SubtitleEvidence,
 } from "@/lib/japanese-learning";
-
-const PROGRESS_STORAGE_KEY = "tastedb-japanese-learning-progress";
-
-const PROGRESS_OPTIONS: Array<{ value: LearningProgress; label: string }> = [
-  { value: "candidate", label: "Candidate" },
-  { value: "ready", label: "Subtitles ready" },
-  { value: "watching", label: "Watching" },
-  { value: "watched", label: "Watched" },
-];
 
 const LEVEL_STYLES: Record<JapaneseLevel, string> = {
   "N5/N4": "border-emerald-400/25 bg-emerald-400/10 text-emerald-300",
@@ -58,7 +53,7 @@ export function JapaneseLearningLibrary() {
     let storedProgress: Record<string, LearningProgress> | null = null;
 
     try {
-      const stored = window.localStorage.getItem(PROGRESS_STORAGE_KEY);
+      const stored = window.localStorage.getItem(JAPANESE_PROGRESS_STORAGE_KEY);
       if (stored) storedProgress = JSON.parse(stored) as Record<string, LearningProgress>;
     } catch {
       // A damaged or unavailable local store should not prevent the catalogue loading.
@@ -103,7 +98,7 @@ export function JapaneseLearningLibrary() {
     setProgress(next);
 
     try {
-      window.localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(next));
+      window.localStorage.setItem(JAPANESE_PROGRESS_STORAGE_KEY, JSON.stringify(next));
     } catch {
       // Keep the in-memory update even if browser storage is unavailable.
     }
@@ -182,7 +177,7 @@ export function JapaneseLearningLibrary() {
             label="Preparation"
             value={progressFilter}
             onChange={(value) => setProgressFilter(value as ProgressFilter)}
-            options={PROGRESS_OPTIONS}
+            options={JAPANESE_PROGRESS_OPTIONS}
           />
           <FilterSelect
             label="Subtitles"
@@ -215,8 +210,23 @@ export function JapaneseLearningLibrary() {
             return (
               <article
                 key={item.id}
-                className="grid gap-5 border-b border-white/10 py-6 md:grid-cols-[minmax(0,1fr)_190px] md:items-center"
+                className="grid gap-5 border-b border-white/10 py-6 sm:grid-cols-[72px_minmax(0,1fr)] md:grid-cols-[72px_minmax(0,1fr)_190px] md:items-center"
               >
+                <Link
+                  href={`/japanese-learning/${item.id}`}
+                  className="relative hidden aspect-[2/3] overflow-hidden rounded-md border border-white/10 bg-zinc-900 sm:block"
+                  aria-label={`Open ${item.title}`}
+                >
+                  {item.posterUrl ? (
+                    <Image
+                      src={item.posterUrl}
+                      alt=""
+                      fill
+                      sizes="72px"
+                      className="object-cover transition-transform duration-300 hover:scale-[1.03]"
+                    />
+                  ) : null}
+                </Link>
                 <div>
                   <div className="flex flex-wrap items-center gap-2">
                     <span
@@ -228,7 +238,12 @@ export function JapaneseLearningLibrary() {
                     <span className="text-xs text-zinc-700">#{item.priority}</span>
                   </div>
                   <h2 className="mt-3 text-lg font-bold text-white md:text-xl">
-                    {item.title}
+                    <Link
+                      href={`/japanese-learning/${item.id}`}
+                      className="transition-colors hover:text-[#638dff]"
+                    >
+                      {item.title}
+                    </Link>
                     <span className="ml-2 font-normal text-zinc-500">{item.japaneseTitle}</span>
                   </h2>
                   <p className="mt-1 text-xs text-zinc-600">
@@ -249,6 +264,12 @@ export function JapaneseLearningLibrary() {
                         Check source <ExternalLink aria-hidden="true" className="h-3 w-3" />
                       </a>
                     ) : null}
+                    <Link
+                      href={`/japanese-learning/${item.id}`}
+                      className="font-semibold text-[#638dff] transition-colors hover:text-[#83a5ff]"
+                    >
+                      View details →
+                    </Link>
                   </div>
                 </div>
 
@@ -261,7 +282,7 @@ export function JapaneseLearningLibrary() {
                     }
                     className="h-10 w-full rounded-md border border-white/10 bg-[#111827] px-3 text-sm text-zinc-200 outline-none focus:border-[#638dff]/60"
                   >
-                    {PROGRESS_OPTIONS.map((option) => (
+                    {JAPANESE_PROGRESS_OPTIONS.map((option) => (
                       <option key={option.value} value={option.value}>
                         {option.label}
                       </option>

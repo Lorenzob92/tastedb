@@ -14,12 +14,28 @@ export interface JapaneseLearningTitle {
   level: JapaneseLevel;
   category: JapaneseCategory;
   summary: string;
+  synopsis?: string;
+  posterUrl?: string;
+  tmdbUrl?: string;
+  anilistUrl?: string;
   subtitleEvidence: SubtitleEvidence;
   sourceUrl?: string;
   priority: number;
 }
 
 export const japaneseLearningTitles = learningData as JapaneseLearningTitle[];
+
+export const JAPANESE_PROGRESS_STORAGE_KEY = "tastedb-japanese-learning-progress";
+
+export const JAPANESE_PROGRESS_OPTIONS: Array<{
+  value: LearningProgress;
+  label: string;
+}> = [
+  { value: "candidate", label: "Candidate" },
+  { value: "ready", label: "Subtitles ready" },
+  { value: "watching", label: "Watching" },
+  { value: "watched", label: "Watched" },
+];
 
 export const JAPANESE_LEVEL_ORDER: JapaneseLevel[] = [
   "N5/N4",
