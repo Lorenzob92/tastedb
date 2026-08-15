@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import { ExternalLink, Search } from "lucide-react";
+import { Search } from "lucide-react";
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -22,18 +23,6 @@ const LEVEL_STYLES: Record<JapaneseLevel, string> = {
   "N4/N3": "border-violet-400/25 bg-violet-400/10 text-violet-300",
   N3: "border-amber-400/25 bg-amber-400/10 text-amber-300",
   "N2/N1": "border-rose-400/25 bg-rose-400/10 text-rose-300",
-};
-
-const SUBTITLE_LABELS: Record<SubtitleEvidence, string> = {
-  verified: "JA + EN verified",
-  "english-only": "English release found",
-  unverified: "Needs subtitle check",
-};
-
-const SUBTITLE_STYLES: Record<SubtitleEvidence, string> = {
-  verified: "text-emerald-300",
-  "english-only": "text-amber-300",
-  unverified: "text-zinc-500",
 };
 
 type CategoryFilter = JapaneseCategory | "All";
@@ -93,19 +82,8 @@ export function JapaneseLearningLibrary() {
   ).length;
   const watchedCount = Object.values(progress).filter((value) => value === "watched").length;
 
-  function updateProgress(id: string, value: LearningProgress) {
-    const next = { ...progress, [id]: value };
-    setProgress(next);
-
-    try {
-      window.localStorage.setItem(JAPANESE_PROGRESS_STORAGE_KEY, JSON.stringify(next));
-    } catch {
-      // Keep the in-memory update even if browser storage is unavailable.
-    }
-  }
-
   return (
-    <main className="mx-auto w-full max-w-6xl px-4 py-10 md:px-6 md:py-14">
+    <main className="w-full py-4 md:py-6">
       <header className="max-w-3xl">
         <p className="mb-3 text-xs font-bold uppercase tracking-[0.22em] text-[#638dff]">
           Japanese learning
@@ -192,7 +170,7 @@ export function JapaneseLearningLibrary() {
         </div>
       </section>
 
-      <div className="mt-5 flex items-start justify-between gap-4 border-b border-white/10 pb-4">
+      <div className="mt-5 flex items-start justify-between gap-4 pb-5">
         <p className="text-sm text-zinc-500">
           Showing <span className="font-semibold text-zinc-300">{visibleTitles.length}</span> titles
         </p>
@@ -204,94 +182,66 @@ export function JapaneseLearningLibrary() {
 
       <section aria-live="polite">
         {visibleTitles.length ? (
-          visibleTitles.map((item) => {
-            const itemProgress = progress[item.id] ?? "candidate";
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
+            {visibleTitles.map((item) => {
+              const itemProgress = progress[item.id] ?? "candidate";
+              const progressLabel = JAPANESE_PROGRESS_OPTIONS.find(
+                (option) => option.value === itemProgress,
+              )?.label;
 
-            return (
-              <article
-                key={item.id}
-                className="grid gap-5 border-b border-white/10 py-6 sm:grid-cols-[72px_minmax(0,1fr)] md:grid-cols-[72px_minmax(0,1fr)_190px] md:items-center"
-              >
-                <Link
-                  href={`/japanese-learning/${item.id}`}
-                  className="relative hidden aspect-[2/3] overflow-hidden rounded-md border border-white/10 bg-zinc-900 sm:block"
-                  aria-label={`Open ${item.title}`}
+              return (
+                <motion.div
+                  key={item.id}
+                  whileHover={{ y: -4 }}
+                  transition={{ duration: 0.2 }}
                 >
-                  {item.posterUrl ? (
-                    <Image
-                      src={item.posterUrl}
-                      alt=""
-                      fill
-                      sizes="72px"
-                      className="object-cover transition-transform duration-300 hover:scale-[1.03]"
-                    />
-                  ) : null}
-                </Link>
-                <div>
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span
-                      className={`rounded border px-2 py-0.5 text-[11px] font-bold ${LEVEL_STYLES[item.level]}`}
-                    >
-                      {item.level}
-                    </span>
-                    <span className="text-xs font-semibold text-zinc-500">{item.category}</span>
-                    <span className="text-xs text-zinc-700">#{item.priority}</span>
-                  </div>
-                  <h2 className="mt-3 text-lg font-bold text-white md:text-xl">
-                    <Link
-                      href={`/japanese-learning/${item.id}`}
-                      className="transition-colors hover:text-[#638dff]"
-                    >
-                      {item.title}
-                    </Link>
-                    <span className="ml-2 font-normal text-zinc-500">{item.japaneseTitle}</span>
-                  </h2>
-                  <p className="mt-1 text-xs text-zinc-600">
-                    {item.format} · {item.year}
-                  </p>
-                  <p className="mt-3 max-w-3xl text-sm leading-6 text-zinc-400">{item.summary}</p>
-                  <div className="mt-3 flex flex-wrap items-center gap-3 text-xs">
-                    <span className={SUBTITLE_STYLES[item.subtitleEvidence]}>
-                      {SUBTITLE_LABELS[item.subtitleEvidence]}
-                    </span>
-                    {item.sourceUrl ? (
-                      <a
-                        href={item.sourceUrl}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="inline-flex items-center gap-1 text-zinc-500 transition-colors hover:text-white"
-                      >
-                        Check source <ExternalLink aria-hidden="true" className="h-3 w-3" />
-                      </a>
-                    ) : null}
-                    <Link
-                      href={`/japanese-learning/${item.id}`}
-                      className="font-semibold text-[#638dff] transition-colors hover:text-[#83a5ff]"
-                    >
-                      View details →
-                    </Link>
-                  </div>
-                </div>
+                  <Link href={`/japanese-learning/${item.id}`} className="group block">
+                    <div className="relative aspect-[3/4] overflow-hidden rounded-lg border border-white/10 bg-zinc-900">
+                      {item.posterUrl ? (
+                        <Image
+                          src={item.posterUrl}
+                          alt={`${item.title} poster`}
+                          fill
+                          sizes="(max-width: 640px) 50vw, (max-width: 768px) 33vw, (max-width: 1024px) 25vw, (max-width: 1280px) 20vw, 16vw"
+                          className="object-cover"
+                        />
+                      ) : (
+                        <div className="flex h-full items-center justify-center p-3 text-center text-xs font-medium text-zinc-400">
+                          {item.title}
+                        </div>
+                      )}
 
-                <label className="block">
-                  <span className="mb-2 block text-xs font-semibold text-zinc-500">Your status</span>
-                  <select
-                    value={itemProgress}
-                    onChange={(event) =>
-                      updateProgress(item.id, event.target.value as LearningProgress)
-                    }
-                    className="h-10 w-full rounded-md border border-white/10 bg-[#111827] px-3 text-sm text-zinc-200 outline-none focus:border-[#638dff]/60"
-                  >
-                    {JAPANESE_PROGRESS_OPTIONS.map((option) => (
-                      <option key={option.value} value={option.value}>
-                        {option.label}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-              </article>
-            );
-          })
+                      <div className="absolute right-1.5 top-1.5 rounded bg-black/70 p-1 backdrop-blur-sm">
+                        <span
+                          className={`block rounded border px-1.5 py-0.5 text-[11px] font-black ${LEVEL_STYLES[item.level]}`}
+                        >
+                          {item.level}
+                        </span>
+                      </div>
+
+                      {itemProgress !== "candidate" ? (
+                        <span className="absolute bottom-1.5 left-1.5 rounded bg-black/75 px-2 py-1 text-[10px] font-bold text-white backdrop-blur-sm">
+                          {progressLabel}
+                        </span>
+                      ) : null}
+                    </div>
+
+                    <div className="mt-2 space-y-0.5">
+                      <h2 className="truncate text-sm font-semibold text-zinc-100 transition-colors group-hover:text-[#638dff]">
+                        {item.title}
+                      </h2>
+                      <p className="truncate font-[family-name:var(--font-noto-jp)] text-xs text-zinc-500">
+                        {item.japaneseTitle}
+                      </p>
+                      <p className="truncate text-[11px] text-zinc-600">
+                        {item.category} · {item.year}
+                      </p>
+                    </div>
+                  </Link>
+                </motion.div>
+              );
+            })}
+          </div>
         ) : (
           <div className="py-20 text-center">
             <p className="font-semibold text-zinc-300">No matching titles.</p>
