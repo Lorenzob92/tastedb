@@ -1,12 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { useAuth } from "@/lib/auth-context";
 
 export function Nav() {
   const { user, isConfigured, signOut } = useAuth();
-  const router = useRouter();
 
   async function handleSignOut() {
     await signOut();
@@ -35,6 +33,14 @@ export function Nav() {
         <li className="shrink-0">
           <Link href="/wishlist" className="text-sm text-zinc-400 hover:text-white transition-colors">
             Wishlist
+          </Link>
+        </li>
+        <li className="shrink-0">
+          <Link
+            href="/japanese-learning"
+            className="text-sm text-zinc-400 hover:text-white transition-colors"
+          >
+            Japanese
           </Link>
         </li>
         <li className="shrink-0">
