@@ -10,12 +10,15 @@ import {
   JAPANESE_LEVEL_ORDER,
   JAPANESE_PROGRESS_OPTIONS,
   JAPANESE_PROGRESS_STORAGE_KEY,
+  isNewAddition,
   japaneseLearningTitles,
   type JapaneseCategory,
   type JapaneseLevel,
   type LearningProgress,
   type SubtitleEvidence,
 } from "@/lib/japanese-learning";
+
+const newAdditionCount = japaneseLearningTitles.filter(isNewAddition).length;
 
 const LEVEL_STYLES: Record<JapaneseLevel, string> = {
   "N5/N4": "border-emerald-400/25 bg-emerald-400/10 text-emerald-300",
@@ -36,6 +39,7 @@ export function JapaneseLearningLibrary() {
   const [level, setLevel] = useState<LevelFilter>("All");
   const [progressFilter, setProgressFilter] = useState<ProgressFilter>("All");
   const [subtitleFilter, setSubtitleFilter] = useState<SubtitleFilter>("All");
+  const [newOnly, setNewOnly] = useState(false);
   const [progress, setProgress] = useState<Record<string, LearningProgress>>({});
 
   useEffect(() => {
@@ -71,11 +75,12 @@ export function JapaneseLearningLibrary() {
           (category === "All" || item.category === category) &&
           (level === "All" || item.level === level) &&
           (progressFilter === "All" || itemProgress === progressFilter) &&
-          (subtitleFilter === "All" || item.subtitleEvidence === subtitleFilter)
+          (subtitleFilter === "All" || item.subtitleEvidence === subtitleFilter) &&
+          (!newOnly || isNewAddition(item))
         );
       })
       .sort((a, b) => a.priority - b.priority);
-  }, [category, level, progress, progressFilter, query, subtitleFilter]);
+  }, [category, level, newOnly, progress, progressFilter, query, subtitleFilter]);
 
   const readyCount = Object.values(progress).filter(
     (value) => value === "ready" || value === "watching" || value === "watched",
@@ -128,6 +133,21 @@ export function JapaneseLearningLibrary() {
         </div>
 
         <div className="mt-4 flex gap-2 overflow-x-auto pb-2 scrollbar-hide">
+          {newAdditionCount ? (
+            <button
+              type="button"
+              onClick={() => setNewOnly((value) => !value)}
+              aria-pressed={newOnly}
+              className={`mr-1 shrink-0 rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors ${
+                newOnly
+                  ? "border-emerald-400 bg-emerald-400 text-black"
+                  : "border-emerald-400/40 text-emerald-300 hover:border-emerald-400/70 hover:text-emerald-200"
+              }`}
+            >
+              New ({newAdditionCount})
+            </button>
+          ) : null}
+
           {JAPANESE_CATEGORIES.map((item) => (
             <button
               key={item}
@@ -218,6 +238,12 @@ export function JapaneseLearningLibrary() {
                           {item.level}
                         </span>
                       </div>
+
+                      {isNewAddition(item) ? (
+                        <span className="absolute left-1.5 top-1.5 rounded bg-emerald-400 px-1.5 py-0.5 text-[10px] font-black uppercase tracking-wide text-black">
+                          New
+                        </span>
+                      ) : null}
 
                       {itemProgress !== "candidate" ? (
                         <span className="absolute bottom-1.5 left-1.5 rounded bg-black/75 px-2 py-1 text-[10px] font-bold text-white backdrop-blur-sm">

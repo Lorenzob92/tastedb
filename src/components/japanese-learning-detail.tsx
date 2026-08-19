@@ -7,6 +7,7 @@ import { ExternalLink, Search } from "lucide-react";
 import {
   JAPANESE_PROGRESS_OPTIONS,
   JAPANESE_PROGRESS_STORAGE_KEY,
+  isNewAddition,
   type JapaneseLearningTitle,
   type LearningProgress,
 } from "@/lib/japanese-learning";
@@ -114,6 +115,11 @@ export function JapaneseLearningDetail({ item }: { item: JapaneseLearningTitle }
             <span className="rounded border border-white/10 px-2 py-0.5 text-xs text-zinc-400">
               {item.category}
             </span>
+            {isNewAddition(item) ? (
+              <span className="rounded bg-emerald-400 px-2 py-0.5 text-xs font-bold uppercase tracking-wide text-black">
+                New
+              </span>
+            ) : null}
             <span className="text-xs text-zinc-600">Learning order #{item.priority}</span>
           </div>
 

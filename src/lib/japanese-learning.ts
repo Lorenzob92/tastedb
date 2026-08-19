@@ -21,9 +21,23 @@ export interface JapaneseLearningTitle {
   subtitleEvidence: SubtitleEvidence;
   sourceUrl?: string;
   priority: number;
+  /** ISO date of the batch this title was added in. Present only on recent additions. */
+  addedBatch?: string;
 }
 
 export const japaneseLearningTitles = learningData as JapaneseLearningTitle[];
+
+/** The most recent batch date present in the catalogue, or null when nothing is tagged. */
+export const LATEST_BATCH: string | null =
+  japaneseLearningTitles
+    .map((item) => item.addedBatch)
+    .filter((batch): batch is string => Boolean(batch))
+    .sort()
+    .at(-1) ?? null;
+
+export function isNewAddition(item: JapaneseLearningTitle): boolean {
+  return Boolean(LATEST_BATCH) && item.addedBatch === LATEST_BATCH;
+}
 
 export const JAPANESE_PROGRESS_STORAGE_KEY = "tastedb-japanese-learning-progress";
 
